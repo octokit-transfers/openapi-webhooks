@@ -280,7 +280,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+     * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
      * @description A manifest file change introduced a vulnerable dependency, or a GitHub Security Advisory was published and an existing dependency was found to be vulnerable.
      */
     post: operations["dependabot-alert/created"];
@@ -294,7 +294,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+     * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
      * @description A Dependabot alert was manually closed.
      */
     post: operations["dependabot-alert/dismissed"];
@@ -308,7 +308,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+     * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
      * @description A manifest file change removed a vulnerability.
      */
     post: operations["dependabot-alert/fixed"];
@@ -322,7 +322,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+     * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
      * @description A manifest file change introduced a vulnerable dependency that had previously been fixed.
      */
     post: operations["dependabot-alert/reintroduced"];
@@ -336,7 +336,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+     * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
      * @description A Dependabot alert was manually reopened.
      */
     post: operations["dependabot-alert/reopened"];
@@ -435,7 +435,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A comment on the discussion was marked as the answer.
      */
     post: operations["discussion/answered"];
@@ -449,7 +449,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description The category of a discussion was changed.
      */
     post: operations["discussion/category-changed"];
@@ -463,7 +463,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A discussion was closed.
      */
     post: operations["discussion/closed"];
@@ -477,7 +477,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A comment on a discussion was created.
      */
     post: operations["discussion-comment/created"];
@@ -491,7 +491,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A comment on a discussion was deleted.
      */
     post: operations["discussion-comment/deleted"];
@@ -505,7 +505,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A comment on a discussion was edited.
      */
     post: operations["discussion-comment/edited"];
@@ -519,7 +519,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A discussion was created.
      */
     post: operations["discussion/created"];
@@ -533,7 +533,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A discussion was deleted.
      */
     post: operations["discussion/deleted"];
@@ -547,7 +547,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description The title or body on a discussion was edited, or the category of the discussion was changed.
      */
     post: operations["discussion/edited"];
@@ -561,7 +561,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A label was added to a discussion.
      */
     post: operations["discussion/labeled"];
@@ -575,7 +575,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A discussion was locked.
      */
     post: operations["discussion/locked"];
@@ -589,7 +589,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A discussion was pinned.
      */
     post: operations["discussion/pinned"];
@@ -603,7 +603,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A discussion was reopened.
      */
     post: operations["discussion/reopened"];
@@ -617,7 +617,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A discussion was transferred to another repository.
      */
     post: operations["discussion/transferred"];
@@ -631,7 +631,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A comment on the discussion was unmarked as the answer.
      */
     post: operations["discussion/unanswered"];
@@ -645,7 +645,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A label was removed from a discussion.
      */
     post: operations["discussion/unlabeled"];
@@ -659,7 +659,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A discussion was unlocked.
      */
     post: operations["discussion/unlocked"];
@@ -673,7 +673,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
      *
      * > [!NOTE]
-     * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+     * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
      * @description A discussion was unpinned.
      */
     post: operations["discussion/unpinned"];
@@ -1228,7 +1228,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Personal access token requests" organization permission.
      *
      * > [!NOTE]
-     * > Fine-grained PATs are in public beta. Related APIs, events, and functionality are subject to change.
+     * > Fine-grained PATs are in public preview. Related APIs, events, and functionality are subject to change.
      * @description A fine-grained personal access token request was approved.
      */
     post: operations["personal-access-token-request/approved"];
@@ -1240,7 +1240,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Personal access token requests" organization permission.
      *
      * > [!NOTE]
-     * > Fine-grained PATs are in public beta. Related APIs, events, and functionality are subject to change.
+     * > Fine-grained PATs are in public preview. Related APIs, events, and functionality are subject to change.
      * @description A fine-grained personal access token request was cancelled by the requester.
      */
     post: operations["personal-access-token-request/cancelled"];
@@ -1252,7 +1252,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Personal access token requests" organization permission.
      *
      * > [!NOTE]
-     * > Fine-grained PATs are in public beta. Related APIs, events, and functionality are subject to change.
+     * > Fine-grained PATs are in public preview. Related APIs, events, and functionality are subject to change.
      * @description A fine-grained personal access token request was created.
      */
     post: operations["personal-access-token-request/created"];
@@ -1264,7 +1264,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Personal access token requests" organization permission.
      *
      * > [!NOTE]
-     * > Fine-grained PATs are in public beta. Related APIs, events, and functionality are subject to change.
+     * > Fine-grained PATs are in public preview. Related APIs, events, and functionality are subject to change.
      * @description A fine-grained personal access token request was denied.
      */
     post: operations["personal-access-token-request/denied"];
@@ -1464,7 +1464,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description A project in the organization was closed.
      */
     post: operations["projects-v2/closed"];
@@ -1478,7 +1478,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description A project in the organization was created.
      */
     post: operations["projects-v2/created"];
@@ -1492,7 +1492,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description A project in the organization was deleted.
      */
     post: operations["projects-v2/deleted"];
@@ -1506,7 +1506,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description The title, description, or README of a project in the organization was changed.
      */
     post: operations["projects-v2/edited"];
@@ -1520,7 +1520,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description An item on an organization project was archived. For more information, see "[Archiving items from your project](https://docs.github.com/enterprise-server@3.11/issues/planning-and-tracking-with-projects/managing-items-in-your-project/archiving-items-from-your-project)."
      */
     post: operations["projects-v2-item/archived"];
@@ -1534,7 +1534,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description A draft issue in an organization project was converted to an issue.
      */
     post: operations["projects-v2-item/converted"];
@@ -1548,7 +1548,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description An item was added to a project in the organization.
      */
     post: operations["projects-v2-item/created"];
@@ -1562,7 +1562,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description An item was deleted from a project in the organization.
      */
     post: operations["projects-v2-item/deleted"];
@@ -1576,7 +1576,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description The values or state of an item in an organization project were changed. For example, the value of a field was updated, the body of a draft issue was changed, or a draft issue was converted to an issue.
      */
     post: operations["projects-v2-item/edited"];
@@ -1590,7 +1590,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description The position of an item in an organization project was changed. For example, an item was moved above or below another item in the table or board layout.
      */
     post: operations["projects-v2-item/reordered"];
@@ -1604,7 +1604,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description An archived item on an organization project was restored from the archive. For more information, see "[Archiving items from your project](https://docs.github.com/enterprise-server@3.11/issues/planning-and-tracking-with-projects/managing-items-in-your-project/archiving-items-from-your-project)."
      */
     post: operations["projects-v2-item/restored"];
@@ -1618,7 +1618,7 @@ export interface webhooks {
      * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
      *
      * > [!NOTE]
-     * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+     * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
      * @description A project in the organization was reopened.
      */
     post: operations["projects-v2/reopened"];
@@ -2173,7 +2173,7 @@ export interface webhooks {
      * This event occurs when there is activity relating to a security vulnerability alert in a repository.
      *
      * > [!WARNING]
-     * > **Deprecation notice:** This event is deprecated. Use the `dependabot_alert` event instead.
+     * > **Closing down notice:** This event is closing down. Use the `dependabot_alert` event instead.
      * @description A repository vulnerability alert was created.
      */
     post: operations["repository-vulnerability-alert/create"];
@@ -2183,7 +2183,7 @@ export interface webhooks {
      * This event occurs when there is activity relating to a security vulnerability alert in a repository.
      *
      * > [!WARNING]
-     * > **Deprecation notice:** This event is deprecated. Use the `dependabot_alert` event instead.
+     * > **Closing down notice:** This event is closing down. Use the `dependabot_alert` event instead.
      * @description A repository vulnerability alert was dismissed.
      */
     post: operations["repository-vulnerability-alert/dismiss"];
@@ -2193,7 +2193,7 @@ export interface webhooks {
      * This event occurs when there is activity relating to a security vulnerability alert in a repository.
      *
      * > [!WARNING]
-     * > **Deprecation notice:** This event is deprecated. Use the `dependabot_alert` event instead.
+     * > **Closing down notice:** This event is closing down. Use the `dependabot_alert` event instead.
      * @description A previously dismissed or resolved repository vulnerability alert was reopened.
      */
     post: operations["repository-vulnerability-alert/reopen"];
@@ -2203,7 +2203,7 @@ export interface webhooks {
      * This event occurs when there is activity relating to a security vulnerability alert in a repository.
      *
      * > [!WARNING]
-     * > **Deprecation notice:** This event is deprecated. Use the `dependabot_alert` event instead.
+     * > **Closing down notice:** This event is closing down. Use the `dependabot_alert` event instead.
      * @description A repository vulnerability alert was marked as resolved.
      */
     post: operations["repository-vulnerability-alert/resolve"];
@@ -2556,7 +2556,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Enterprise
@@ -2948,7 +2948,7 @@ export interface components {
       allow_update_branch?: boolean;
       /**
        * @deprecated
-       * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+       * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
        * @default false
        */
       use_squash_pr_title_as_default?: boolean;
@@ -3056,41 +3056,7 @@ export interface components {
       type: string;
       site_admin: boolean;
       starred_at?: string;
-    };
-    /**
-     * Simple User
-     * @description The GitHub user that triggered the event. This property is included in every webhook payload.
-     */
-    "simple-user-webhooks": {
-      name?: string | null;
-      email?: string | null;
-      login: string;
-      id: number;
-      node_id: string;
-      /** Format: uri */
-      avatar_url: string;
-      gravatar_id: string | null;
-      /** Format: uri */
-      url: string;
-      /** Format: uri */
-      html_url: string;
-      /** Format: uri */
-      followers_url: string;
-      following_url: string;
-      gists_url: string;
-      starred_url: string;
-      /** Format: uri */
-      subscriptions_url: string;
-      /** Format: uri */
-      organizations_url: string;
-      /** Format: uri */
-      repos_url: string;
-      events_url: string;
-      /** Format: uri */
-      received_events_url: string;
-      type: string;
-      site_admin: boolean;
-      starred_at?: string;
+      user_view_type?: string;
     };
     /** branch protection configuration enabled event */
     "webhook-branch-protection-configuration-enabled": {
@@ -3100,7 +3066,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** branch protection rule created event */
     "webhook-branch-protection-rule-created": {
@@ -3111,7 +3077,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
       rule: components["schemas"]["webhooks_rule"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * branch protection rule
@@ -3175,7 +3141,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
       rule: components["schemas"]["webhooks_rule"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** branch protection rule edited event */
     "webhook-branch-protection-rule-edited": {
@@ -3219,7 +3185,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
       rule: components["schemas"]["webhooks_rule"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     "webhook-cache-sync": {
       after: string;
@@ -3230,7 +3196,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       ref: string;
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** Check Run Completed Event */
     "webhook-check-run-completed": {
@@ -3240,7 +3206,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * CheckRun
@@ -3304,7 +3270,6 @@ export interface components {
       /** @description The slug name of the GitHub app */
       slug?: string;
       node_id: string;
-      client_id?: string;
       owner: null | components["schemas"]["simple-user"];
       /** @description The name of the GitHub app */
       name: string;
@@ -3597,7 +3562,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Check Run Requested Action Event */
     "webhook-check-run-requested-action": {
@@ -3612,7 +3577,7 @@ export interface components {
         /** @description The integrator reference of the action requested by the user. */
         identifier?: string;
       };
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Check Run Re-Requested Event */
     "webhook-check-run-rerequested": {
@@ -3622,7 +3587,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** check_suite completed event */
     "webhook-check-suite-completed": {
@@ -3741,6 +3706,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -3934,7 +3900,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** check_suite requested event */
     "webhook-check-suite-requested": {
@@ -4054,6 +4020,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -4240,7 +4207,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** check_suite rerequested event */
     "webhook-check-suite-rerequested": {
@@ -4355,6 +4322,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -4540,7 +4508,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** code_scanning_alert appeared_in_branch event */
     "webhook-code-scanning-alert-appeared-in-branch": {
@@ -4594,6 +4562,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * @description The reason for dismissing or closing the alert.
@@ -4670,7 +4639,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       ref: components["schemas"]["webhooks_code_scanning_ref"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** @description The commit SHA of the code scanning alert. When the action is `reopened_by_user` or `closed_by_user`, the event was triggered by the `sender` and this value will be empty. */
     webhooks_code_scanning_commit_oid: string;
@@ -4728,6 +4697,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * @description The reason for dismissing or closing the alert.
@@ -4811,7 +4781,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       ref: components["schemas"]["webhooks_code_scanning_ref"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** code_scanning_alert created event */
     "webhook-code-scanning-alert-created": {
@@ -4886,9 +4856,9 @@ export interface components {
         };
         /**
          * @description State of a code scanning alert.
-         * @enum {string}
+         * @enum {string|null}
          */
-        state: "open" | "dismissed";
+        state: "open" | "dismissed" | null;
         tool: {
           guid?: string | null;
           /** @description The name of the tool used to generate the code scanning analysis alert. */
@@ -4906,7 +4876,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       ref: components["schemas"]["webhooks_code_scanning_ref"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** @description The dismissal comment associated with the dismissal of the alert. */
     "code-scanning-alert-dismissed-comment": string | null;
@@ -4962,6 +4932,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * @description The reason for dismissing or closing the alert.
@@ -5047,7 +5018,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       ref: components["schemas"]["webhooks_code_scanning_ref"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** code_scanning_alert reopened event */
     "webhook-code-scanning-alert-reopened": {
@@ -5140,7 +5111,7 @@ export interface components {
       /** @description The Git reference of the code scanning alert. When the action is `reopened_by_user` or `closed_by_user`, the event was triggered by the `sender` and this value will be empty. */
       ref: string | null;
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** code_scanning_alert reopened_by_user event */
     "webhook-code-scanning-alert-reopened-by-user": {
@@ -5224,7 +5195,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       ref: components["schemas"]["webhooks_code_scanning_ref"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** commit_comment created event */
     "webhook-commit-comment-created": {
@@ -5233,7 +5204,7 @@ export interface components {
        * @enum {string}
        */
       action: "created";
-      /** @description The [commit comment](https://docs.github.com/enterprise-server@3.11/rest/commits/comments#get-a-commit-comment) resource. */
+      /** @description The [commit comment](${externalDocsUpapp/api/description/components/schemas/webhooks/issue-comment-created.yamlrl}/rest/commits/comments#get-a-commit-comment) resource. */
       comment: {
         /**
          * AuthorAssociation
@@ -5320,13 +5291,14 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       enterprise?: components["schemas"]["enterprise-webhooks"];
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** create event */
     "webhook-create": {
@@ -5345,7 +5317,7 @@ export interface components {
        */
       ref_type: "tag" | "branch";
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** @description The pusher type for the event. Can be either `user` or a deploy key. */
     webhooks_deploy_pusher_type: string;
@@ -5364,7 +5336,7 @@ export interface components {
        */
       ref_type: "tag" | "branch";
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Dependabot alert created event */
     "webhook-dependabot-alert-created": {
@@ -5375,7 +5347,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       enterprise?: components["schemas"]["enterprise-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** @description A Dependabot alert. */
     "dependabot-alert": {
@@ -5453,6 +5425,7 @@ export interface components {
         /** @description The full CVSS vector string for the advisory. */
         readonly vector_string: string | null;
       };
+      readonly cvss_severities?: components["schemas"]["cvss-severities"];
       /** @description Details for the advisory pertaining to Common Weakness Enumeration. */
       readonly cwes: readonly {
         /** @description The unique CWE ID. */
@@ -5510,6 +5483,20 @@ export interface components {
         readonly identifier: string;
       } | null;
     };
+    "cvss-severities": {
+      cvss_v3?: {
+        /** @description The CVSS 3 vector string. */
+        vector_string: string | null;
+        /** @description The CVSS 3 score. */
+        score: number | null;
+      } | null;
+      cvss_v4?: {
+        /** @description The CVSS 4 vector string. */
+        vector_string: string | null;
+        /** @description The CVSS 4 score. */
+        score: number | null;
+      } | null;
+    } | null;
     /**
      * Format: uri
      * @description The REST API URL of the alert resource.
@@ -5554,7 +5541,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       enterprise?: components["schemas"]["enterprise-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Dependabot alert fixed event */
     "webhook-dependabot-alert-fixed": {
@@ -5565,7 +5552,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       enterprise?: components["schemas"]["enterprise-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Dependabot alert reintroduced event */
     "webhook-dependabot-alert-reintroduced": {
@@ -5576,7 +5563,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       enterprise?: components["schemas"]["enterprise-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Dependabot alert reopened event */
     "webhook-dependabot-alert-reopened": {
@@ -5587,7 +5574,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       enterprise?: components["schemas"]["enterprise-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** deploy_key created event */
     "webhook-deploy-key-created": {
@@ -5598,7 +5585,7 @@ export interface components {
       key: components["schemas"]["webhooks_deploy_key"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** @description The [`deploy key`](https://docs.github.com/enterprise-server@3.11/rest/deploy-keys/deploy-keys#get-a-deploy-key) resource. */
     webhooks_deploy_key: {
@@ -5622,7 +5609,7 @@ export interface components {
       key: components["schemas"]["webhooks_deploy_key"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** deployment created event */
     "webhook-deployment-created": {
@@ -5670,6 +5657,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         description: string | null;
         environment: string;
@@ -5783,6 +5771,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -5879,7 +5868,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow: components["schemas"]["webhooks_workflow"];
       /** Deployment Workflow Run */
       workflow_run: {
@@ -5919,6 +5908,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         artifacts_url?: string;
         cancel_url?: string;
@@ -6169,6 +6159,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: date-time */
         updated_at: string;
@@ -6328,361 +6319,16 @@ export interface components {
       head: {
         label: string;
         ref: string;
-        repo: {
-          archive_url: string;
-          assignees_url: string;
-          blobs_url: string;
-          branches_url: string;
-          collaborators_url: string;
-          comments_url: string;
-          commits_url: string;
-          compare_url: string;
-          contents_url: string;
-          /** Format: uri */
-          contributors_url: string;
-          /** Format: uri */
-          deployments_url: string;
-          description: string | null;
-          /** Format: uri */
-          downloads_url: string;
-          /** Format: uri */
-          events_url: string;
-          fork: boolean;
-          /** Format: uri */
-          forks_url: string;
-          full_name: string;
-          git_commits_url: string;
-          git_refs_url: string;
-          git_tags_url: string;
-          /** Format: uri */
-          hooks_url: string;
-          /** Format: uri */
-          html_url: string;
-          id: number;
-          node_id: string;
-          issue_comment_url: string;
-          issue_events_url: string;
-          issues_url: string;
-          keys_url: string;
-          labels_url: string;
-          /** Format: uri */
-          languages_url: string;
-          /** Format: uri */
-          merges_url: string;
-          milestones_url: string;
-          name: string;
-          notifications_url: string;
-          owner: {
-            /** Format: uri */
-            avatar_url: string;
-            events_url: string;
-            /** Format: uri */
-            followers_url: string;
-            following_url: string;
-            gists_url: string;
-            gravatar_id: string | null;
-            /** Format: uri */
-            html_url: string;
-            id: number;
-            node_id: string;
-            login: string;
-            /** Format: uri */
-            organizations_url: string;
-            /** Format: uri */
-            received_events_url: string;
-            /** Format: uri */
-            repos_url: string;
-            site_admin: boolean;
-            starred_url: string;
-            /** Format: uri */
-            subscriptions_url: string;
-            type: string;
-            /** Format: uri */
-            url: string;
-          };
-          private: boolean;
-          pulls_url: string;
-          releases_url: string;
-          /** Format: uri */
-          stargazers_url: string;
-          statuses_url: string;
-          /** Format: uri */
-          subscribers_url: string;
-          /** Format: uri */
-          subscription_url: string;
-          /** Format: uri */
-          tags_url: string;
-          /** Format: uri */
-          teams_url: string;
-          trees_url: string;
-          /** Format: uri */
-          url: string;
-          clone_url: string;
-          default_branch: string;
-          forks: number;
-          forks_count: number;
-          git_url: string;
-          has_downloads: boolean;
-          has_issues: boolean;
-          has_projects: boolean;
-          has_wiki: boolean;
-          has_pages: boolean;
-          has_discussions: boolean;
-          /** Format: uri */
-          homepage: string | null;
-          language: string | null;
-          master_branch?: string;
-          archived: boolean;
-          disabled: boolean;
-          /** @description The repository visibility: public, private, or internal. */
-          visibility?: string;
-          /** Format: uri */
-          mirror_url: string | null;
-          open_issues: number;
-          open_issues_count: number;
-          permissions?: {
-            admin: boolean;
-            maintain?: boolean;
-            push: boolean;
-            triage?: boolean;
-            pull: boolean;
-          };
-          temp_clone_token?: string;
-          allow_merge_commit?: boolean;
-          allow_squash_merge?: boolean;
-          allow_rebase_merge?: boolean;
-          license: {
-            key: string;
-            name: string;
-            /** Format: uri */
-            url: string | null;
-            spdx_id: string | null;
-            node_id: string;
-          } | null;
-          /** Format: date-time */
-          pushed_at: string;
-          size: number;
-          ssh_url: string;
-          stargazers_count: number;
-          /** Format: uri */
-          svn_url: string;
-          topics?: string[];
-          watchers: number;
-          watchers_count: number;
-          /** Format: date-time */
-          created_at: string;
-          /** Format: date-time */
-          updated_at: string;
-          allow_forking?: boolean;
-          is_template?: boolean;
-          web_commit_signoff_required?: boolean;
-        } | null;
+        repo: components["schemas"]["repository"];
         sha: string;
-        user: {
-          /** Format: uri */
-          avatar_url: string;
-          events_url: string;
-          /** Format: uri */
-          followers_url: string;
-          following_url: string;
-          gists_url: string;
-          gravatar_id: string | null;
-          /** Format: uri */
-          html_url: string;
-          /** Format: int64 */
-          id: number;
-          node_id: string;
-          login: string;
-          /** Format: uri */
-          organizations_url: string;
-          /** Format: uri */
-          received_events_url: string;
-          /** Format: uri */
-          repos_url: string;
-          site_admin: boolean;
-          starred_url: string;
-          /** Format: uri */
-          subscriptions_url: string;
-          type: string;
-          /** Format: uri */
-          url: string;
-        };
+        user: components["schemas"]["simple-user"];
       };
       base: {
         label: string;
         ref: string;
-        repo: {
-          archive_url: string;
-          assignees_url: string;
-          blobs_url: string;
-          branches_url: string;
-          collaborators_url: string;
-          comments_url: string;
-          commits_url: string;
-          compare_url: string;
-          contents_url: string;
-          /** Format: uri */
-          contributors_url: string;
-          /** Format: uri */
-          deployments_url: string;
-          description: string | null;
-          /** Format: uri */
-          downloads_url: string;
-          /** Format: uri */
-          events_url: string;
-          fork: boolean;
-          /** Format: uri */
-          forks_url: string;
-          full_name: string;
-          git_commits_url: string;
-          git_refs_url: string;
-          git_tags_url: string;
-          /** Format: uri */
-          hooks_url: string;
-          /** Format: uri */
-          html_url: string;
-          id: number;
-          is_template?: boolean;
-          node_id: string;
-          issue_comment_url: string;
-          issue_events_url: string;
-          issues_url: string;
-          keys_url: string;
-          labels_url: string;
-          /** Format: uri */
-          languages_url: string;
-          /** Format: uri */
-          merges_url: string;
-          milestones_url: string;
-          name: string;
-          notifications_url: string;
-          owner: {
-            /** Format: uri */
-            avatar_url: string;
-            events_url: string;
-            /** Format: uri */
-            followers_url: string;
-            following_url: string;
-            gists_url: string;
-            gravatar_id: string | null;
-            /** Format: uri */
-            html_url: string;
-            id: number;
-            node_id: string;
-            login: string;
-            /** Format: uri */
-            organizations_url: string;
-            /** Format: uri */
-            received_events_url: string;
-            /** Format: uri */
-            repos_url: string;
-            site_admin: boolean;
-            starred_url: string;
-            /** Format: uri */
-            subscriptions_url: string;
-            type: string;
-            /** Format: uri */
-            url: string;
-          };
-          private: boolean;
-          pulls_url: string;
-          releases_url: string;
-          /** Format: uri */
-          stargazers_url: string;
-          statuses_url: string;
-          /** Format: uri */
-          subscribers_url: string;
-          /** Format: uri */
-          subscription_url: string;
-          /** Format: uri */
-          tags_url: string;
-          /** Format: uri */
-          teams_url: string;
-          trees_url: string;
-          /** Format: uri */
-          url: string;
-          clone_url: string;
-          default_branch: string;
-          forks: number;
-          forks_count: number;
-          git_url: string;
-          has_downloads: boolean;
-          has_issues: boolean;
-          has_projects: boolean;
-          has_wiki: boolean;
-          has_pages: boolean;
-          has_discussions: boolean;
-          /** Format: uri */
-          homepage: string | null;
-          language: string | null;
-          master_branch?: string;
-          archived: boolean;
-          disabled: boolean;
-          /** @description The repository visibility: public, private, or internal. */
-          visibility?: string;
-          /** Format: uri */
-          mirror_url: string | null;
-          open_issues: number;
-          open_issues_count: number;
-          permissions?: {
-            admin: boolean;
-            maintain?: boolean;
-            push: boolean;
-            triage?: boolean;
-            pull: boolean;
-          };
-          temp_clone_token?: string;
-          allow_merge_commit?: boolean;
-          allow_squash_merge?: boolean;
-          allow_rebase_merge?: boolean;
-          license: null | components["schemas"]["license-simple"];
-          /** Format: date-time */
-          pushed_at: string;
-          size: number;
-          ssh_url: string;
-          stargazers_count: number;
-          /** Format: uri */
-          svn_url: string;
-          topics?: string[];
-          watchers: number;
-          watchers_count: number;
-          /** Format: date-time */
-          created_at: string;
-          /** Format: date-time */
-          updated_at: string;
-          allow_forking?: boolean;
-          web_commit_signoff_required?: boolean;
-        };
+        repo: components["schemas"]["repository"];
         sha: string;
-        user: {
-          /** Format: uri */
-          avatar_url: string;
-          events_url: string;
-          /** Format: uri */
-          followers_url: string;
-          following_url: string;
-          gists_url: string;
-          gravatar_id: string | null;
-          /** Format: uri */
-          html_url: string;
-          /** Format: int64 */
-          id: number;
-          node_id: string;
-          login: string;
-          /** Format: uri */
-          organizations_url: string;
-          /** Format: uri */
-          received_events_url: string;
-          /** Format: uri */
-          repos_url: string;
-          site_admin: boolean;
-          starred_url: string;
-          /** Format: uri */
-          subscriptions_url: string;
-          type: string;
-          /** Format: uri */
-          url: string;
-        };
+        user: components["schemas"]["simple-user"];
       };
       _links: {
         comments: components["schemas"]["link"];
@@ -6781,6 +6427,244 @@ export interface components {
       ldap_dn?: string;
     };
     /**
+     * Repository
+     * @description A repository on GitHub.
+     */
+    repository: {
+      /**
+       * Format: int64
+       * @description Unique identifier of the repository
+       */
+      id: number;
+      node_id: string;
+      /** @description The name of the repository. */
+      name: string;
+      full_name: string;
+      license: null | components["schemas"]["license-simple"];
+      forks: number;
+      permissions?: {
+        admin: boolean;
+        pull: boolean;
+        triage?: boolean;
+        push: boolean;
+        maintain?: boolean;
+      };
+      owner: components["schemas"]["simple-user"];
+      /**
+       * @description Whether the repository is private or public.
+       * @default false
+       */
+      private: boolean;
+      /** Format: uri */
+      html_url: string;
+      description: string | null;
+      fork: boolean;
+      /** Format: uri */
+      url: string;
+      archive_url: string;
+      assignees_url: string;
+      blobs_url: string;
+      branches_url: string;
+      collaborators_url: string;
+      comments_url: string;
+      commits_url: string;
+      compare_url: string;
+      contents_url: string;
+      /** Format: uri */
+      contributors_url: string;
+      /** Format: uri */
+      deployments_url: string;
+      /** Format: uri */
+      downloads_url: string;
+      /** Format: uri */
+      events_url: string;
+      /** Format: uri */
+      forks_url: string;
+      git_commits_url: string;
+      git_refs_url: string;
+      git_tags_url: string;
+      git_url: string;
+      issue_comment_url: string;
+      issue_events_url: string;
+      issues_url: string;
+      keys_url: string;
+      labels_url: string;
+      /** Format: uri */
+      languages_url: string;
+      /** Format: uri */
+      merges_url: string;
+      milestones_url: string;
+      notifications_url: string;
+      pulls_url: string;
+      releases_url: string;
+      ssh_url: string;
+      /** Format: uri */
+      stargazers_url: string;
+      statuses_url: string;
+      /** Format: uri */
+      subscribers_url: string;
+      /** Format: uri */
+      subscription_url: string;
+      /** Format: uri */
+      tags_url: string;
+      /** Format: uri */
+      teams_url: string;
+      trees_url: string;
+      clone_url: string;
+      /** Format: uri */
+      mirror_url: string | null;
+      /** Format: uri */
+      hooks_url: string;
+      /** Format: uri */
+      svn_url: string;
+      /** Format: uri */
+      homepage: string | null;
+      language: string | null;
+      forks_count: number;
+      stargazers_count: number;
+      watchers_count: number;
+      /** @description The size of the repository, in kilobytes. Size is calculated hourly. When a repository is initially created, the size is 0. */
+      size: number;
+      /** @description The default branch of the repository. */
+      default_branch: string;
+      open_issues_count: number;
+      /**
+       * @description Whether this repository acts as a template that can be used to generate new repositories.
+       * @default false
+       */
+      is_template?: boolean;
+      topics?: string[];
+      /**
+       * @description Whether issues are enabled.
+       * @default true
+       */
+      has_issues: boolean;
+      /**
+       * @description Whether projects are enabled.
+       * @default true
+       */
+      has_projects: boolean;
+      /**
+       * @description Whether the wiki is enabled.
+       * @default true
+       */
+      has_wiki: boolean;
+      has_pages: boolean;
+      /**
+       * @deprecated
+       * @description Whether downloads are enabled.
+       * @default true
+       */
+      has_downloads: boolean;
+      /**
+       * @description Whether discussions are enabled.
+       * @default false
+       */
+      has_discussions?: boolean;
+      /**
+       * @description Whether the repository is archived.
+       * @default false
+       */
+      archived: boolean;
+      /** @description Returns whether or not this repository disabled. */
+      disabled: boolean;
+      /**
+       * @description The repository visibility: public, private, or internal.
+       * @default public
+       */
+      visibility?: string;
+      /** Format: date-time */
+      pushed_at: string | null;
+      /** Format: date-time */
+      created_at: string | null;
+      /** Format: date-time */
+      updated_at: string | null;
+      /**
+       * @description Whether to allow rebase merges for pull requests.
+       * @default true
+       */
+      allow_rebase_merge?: boolean;
+      temp_clone_token?: string;
+      /**
+       * @description Whether to allow squash merges for pull requests.
+       * @default true
+       */
+      allow_squash_merge?: boolean;
+      /**
+       * @description Whether to allow Auto-merge to be used on pull requests.
+       * @default false
+       */
+      allow_auto_merge?: boolean;
+      /**
+       * @description Whether to delete head branches when pull requests are merged
+       * @default false
+       */
+      delete_branch_on_merge?: boolean;
+      /**
+       * @description Whether or not a pull request head branch that is behind its base branch can always be updated even if it is not required to be up to date before merging.
+       * @default false
+       */
+      allow_update_branch?: boolean;
+      /**
+       * @deprecated
+       * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
+       * @default false
+       */
+      use_squash_pr_title_as_default?: boolean;
+      /**
+       * @description The default value for a squash merge commit title:
+       *
+       * - `PR_TITLE` - default to the pull request's title.
+       * - `COMMIT_OR_PR_TITLE` - default to the commit's title (if only one commit) or the pull request's title (when more than one commit).
+       * @enum {string}
+       */
+      squash_merge_commit_title?: "PR_TITLE" | "COMMIT_OR_PR_TITLE";
+      /**
+       * @description The default value for a squash merge commit message:
+       *
+       * - `PR_BODY` - default to the pull request's body.
+       * - `COMMIT_MESSAGES` - default to the branch's commit messages.
+       * - `BLANK` - default to a blank commit message.
+       * @enum {string}
+       */
+      squash_merge_commit_message?: "PR_BODY" | "COMMIT_MESSAGES" | "BLANK";
+      /**
+       * @description The default value for a merge commit title.
+       *
+       * - `PR_TITLE` - default to the pull request's title.
+       * - `MERGE_MESSAGE` - default to the classic title for a merge message (e.g., Merge pull request #123 from branch-name).
+       * @enum {string}
+       */
+      merge_commit_title?: "PR_TITLE" | "MERGE_MESSAGE";
+      /**
+       * @description The default value for a merge commit message.
+       *
+       * - `PR_TITLE` - default to the pull request's title.
+       * - `PR_BODY` - default to the pull request's body.
+       * - `BLANK` - default to a blank commit message.
+       * @enum {string}
+       */
+      merge_commit_message?: "PR_BODY" | "PR_TITLE" | "BLANK";
+      /**
+       * @description Whether to allow merge commits for pull requests.
+       * @default true
+       */
+      allow_merge_commit?: boolean;
+      /** @description Whether to allow forking this repo */
+      allow_forking?: boolean;
+      /**
+       * @description Whether to require contributors to sign off on web-based commits
+       * @default false
+       */
+      web_commit_signoff_required?: boolean;
+      open_issues: number;
+      watchers: number;
+      master_branch?: string;
+      starred_at?: string;
+      /** @description Whether anonymous git access is enabled for this repository */
+      anonymous_access_enabled?: boolean;
+    };
+    /**
      * Link
      * @description Hypermedia Link
      */
@@ -6827,7 +6711,7 @@ export interface components {
       organization: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
       reviewers?: components["schemas"]["webhooks_reviewers"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       since: string;
       workflow_job_run?: components["schemas"]["webhooks_workflow_job_run"];
       workflow_job_runs?: {
@@ -6878,6 +6762,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         artifacts_url?: string;
         cancel_url?: string;
@@ -6954,6 +6839,7 @@ export interface components {
             subscriptions_url?: string;
             type?: string;
             url?: string;
+            user_view_type?: string;
           };
           private?: boolean;
           pulls_url?: string;
@@ -7066,6 +6952,7 @@ export interface components {
             subscriptions_url?: string;
             type?: string;
             url?: string;
+            user_view_type?: string;
           };
           private?: boolean;
           pulls_url?: string;
@@ -7128,6 +7015,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: date-time */
         updated_at: string;
@@ -7156,6 +7044,7 @@ export interface components {
       subscriptions_url?: string;
       type?: string;
       url?: string;
+      user_view_type?: string;
     };
     webhooks_reviewers: {
       /** User */
@@ -7218,7 +7107,7 @@ export interface components {
       organization: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
       reviewers?: components["schemas"]["webhooks_reviewers"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       since: string;
       workflow_job_run?: components["schemas"]["webhooks_workflow_job_run"];
       workflow_job_runs?: {
@@ -7269,6 +7158,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         artifacts_url?: string;
         cancel_url?: string;
@@ -7344,6 +7234,7 @@ export interface components {
             subscriptions_url?: string;
             type?: string;
             url?: string;
+            user_view_type?: string;
           };
           private?: boolean;
           pulls_url?: string;
@@ -7456,6 +7347,7 @@ export interface components {
             subscriptions_url?: string;
             type?: string;
             url?: string;
+            user_view_type?: string;
           };
           private?: boolean;
           pulls_url?: string;
@@ -7517,6 +7409,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: date-time */
         updated_at: string;
@@ -7573,11 +7466,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** @enum {string} */
         type?: "User" | "Team";
       }[];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       since: string;
       workflow_job_run: {
         conclusion: null;
@@ -7627,6 +7521,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         artifacts_url?: string;
         cancel_url?: string;
@@ -7702,6 +7597,7 @@ export interface components {
             subscriptions_url?: string;
             type?: string;
             url?: string;
+            user_view_type?: string;
           };
           private?: boolean;
           pulls_url?: string;
@@ -7814,6 +7710,7 @@ export interface components {
             subscriptions_url?: string;
             type?: string;
             url?: string;
+            user_view_type?: string;
           };
           private?: boolean;
           pulls_url?: string;
@@ -7876,6 +7773,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: date-time */
         updated_at: string;
@@ -7923,6 +7821,7 @@ export interface components {
       type?: "Bot" | "User" | "Organization";
       /** Format: uri */
       url?: string;
+      user_view_type?: string;
     } | null;
     /** deployment_status created event */
     "webhook-deployment-status-created": {
@@ -8009,6 +7908,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         description: string | null;
         environment: string;
@@ -8122,6 +8022,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -8253,6 +8154,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: uri */
         deployment_url: string;
@@ -8371,6 +8273,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -8464,7 +8367,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow?: components["schemas"]["webhooks_workflow"];
       /** Deployment Workflow Run */
       workflow_run?: {
@@ -8504,6 +8407,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         artifacts_url?: string;
         cancel_url?: string;
@@ -8755,6 +8659,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: date-time */
         updated_at: string;
@@ -8774,7 +8679,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     webhooks_answer: {
       /**
@@ -8854,6 +8759,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
     };
     /**
@@ -8899,6 +8805,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       answer_html_url: string | null;
       /**
@@ -9005,6 +8912,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       labels?: components["schemas"]["label"][];
     };
@@ -9059,7 +8967,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion closed event */
     "webhook-discussion-closed": {
@@ -9070,7 +8978,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion_comment created event */
     "webhook-discussion-comment-created": {
@@ -9082,7 +8990,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     webhooks_comment: {
       /**
@@ -9160,6 +9068,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
     };
     /** discussion_comment deleted event */
@@ -9172,7 +9081,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion_comment edited event */
     "webhook-discussion-comment-edited": {
@@ -9189,7 +9098,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion created event */
     "webhook-discussion-created": {
@@ -9200,7 +9109,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion deleted event */
     "webhook-discussion-deleted": {
@@ -9211,7 +9120,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion edited event */
     "webhook-discussion-edited": {
@@ -9230,7 +9139,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion labeled event */
     "webhook-discussion-labeled": {
@@ -9242,7 +9151,7 @@ export interface components {
       label: components["schemas"]["webhooks_label"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Label */
     webhooks_label: {
@@ -9269,7 +9178,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion pinned event */
     "webhook-discussion-pinned": {
@@ -9280,7 +9189,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion reopened event */
     "webhook-discussion-reopened": {
@@ -9291,7 +9200,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion transferred event */
     "webhook-discussion-transferred": {
@@ -9306,7 +9215,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion unanswered event */
     "webhook-discussion-unanswered": {
@@ -9316,7 +9225,7 @@ export interface components {
       old_answer: components["schemas"]["webhooks_answer"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** discussion unlabeled event */
     "webhook-discussion-unlabeled": {
@@ -9328,7 +9237,7 @@ export interface components {
       label: components["schemas"]["webhooks_label"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion unlocked event */
     "webhook-discussion-unlocked": {
@@ -9339,7 +9248,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** discussion unpinned event */
     "webhook-discussion-unpinned": {
@@ -9350,17 +9259,17 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     "webhook-enterprise-anonymous-access-disabled": {
       /** @enum {string} */
       action: "anonymous_access_disabled";
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     "webhook-enterprise-anonymous-access-enabled": {
       /** @enum {string} */
       action: "anonymous_access_enabled";
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /**
      * fork event
@@ -9556,6 +9465,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         permissions?: {
           admin: boolean;
@@ -9707,13 +9617,13 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** github_app_authorization revoked event */
     "webhook-github-app-authorization-revoked": {
       /** @enum {string} */
       action: "revoked";
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** gollum event */
     "webhook-gollum": {
@@ -9741,7 +9651,7 @@ export interface components {
         title: string;
       }[];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** installation created event */
     "webhook-installation-created": {
@@ -9753,7 +9663,7 @@ export interface components {
       repositories?: components["schemas"]["webhooks_repositories"];
       repository?: components["schemas"]["repository-webhooks"];
       requester?: components["schemas"]["webhooks_user"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Installation
@@ -9963,7 +9873,7 @@ export interface components {
        */
       organization_custom_roles?: "read" | "write";
       /**
-       * @description The level of permission to grant the access token for managing access to GitHub Copilot for members of an organization with a Copilot Business subscription. This property is in beta and is subject to change.
+       * @description The level of permission to grant the access token for managing access to GitHub Copilot for members of an organization with a Copilot Business subscription. This property is in public preview and is subject to change.
        * @enum {string}
        */
       organization_copilot_seat_management?: "write";
@@ -9998,7 +9908,7 @@ export interface components {
        */
       organization_plan?: "read";
       /**
-       * @description The level of permission to grant the access token to manage organization projects and projects beta (where available).
+       * @description The level of permission to grant the access token to manage organization projects and projects public preview (where available).
        * @enum {string}
        */
       organization_projects?: "read" | "write" | "admin";
@@ -10084,7 +9994,7 @@ export interface components {
       repositories?: components["schemas"]["webhooks_repositories"];
       repository?: components["schemas"]["repository-webhooks"];
       requester?: null;
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** installation new_permissions_accepted event */
     "webhook-installation-new-permissions-accepted": {
@@ -10096,7 +10006,7 @@ export interface components {
       repositories?: components["schemas"]["webhooks_repositories"];
       repository?: components["schemas"]["repository-webhooks"];
       requester?: null;
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** installation_repositories added event */
     "webhook-installation-repositories-added": {
@@ -10120,7 +10030,7 @@ export interface components {
       repository?: components["schemas"]["repository-webhooks"];
       repository_selection: components["schemas"]["webhooks_repository_selection"];
       requester: components["schemas"]["webhooks_user"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** @description An array of repository objects, which were added to the installation. */
     webhooks_repositories_added: {
@@ -10160,7 +10070,7 @@ export interface components {
       repository?: components["schemas"]["repository-webhooks"];
       repository_selection: components["schemas"]["webhooks_repository_selection"];
       requester: components["schemas"]["webhooks_user"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** installation suspend event */
     "webhook-installation-suspend": {
@@ -10172,7 +10082,7 @@ export interface components {
       repositories?: components["schemas"]["webhooks_repositories"];
       repository?: components["schemas"]["repository-webhooks"];
       requester?: null;
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     "webhook-installation-target-renamed": {
       account: {
@@ -10212,6 +10122,7 @@ export interface components {
         updated_at?: string;
         url?: string;
         website_url?: null;
+        user_view_type?: string;
       };
       /** @enum {string} */
       action: "renamed";
@@ -10227,7 +10138,7 @@ export interface components {
       installation: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
       target_type: string;
     };
     /** installation unsuspend event */
@@ -10240,7 +10151,7 @@ export interface components {
       repositories?: components["schemas"]["webhooks_repositories"];
       repository?: components["schemas"]["repository-webhooks"];
       requester?: null;
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issue_comment created event */
     "webhook-issue-comment-created": {
@@ -10338,6 +10249,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       enterprise?: components["schemas"]["enterprise-webhooks"];
@@ -10387,6 +10299,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -10423,6 +10336,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null)[];
         /**
          * AuthorAssociation
@@ -10518,6 +10432,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -10648,6 +10563,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -10809,6 +10725,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       } & {
         active_lock_reason?: string | null;
@@ -10848,6 +10765,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees?: (Record<string, never> | null)[];
         author_association?: string;
@@ -10926,7 +10844,7 @@ export interface components {
       };
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issue_comment deleted event */
     "webhook-issue-comment-deleted": {
@@ -10980,6 +10898,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -11016,6 +10935,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null)[];
         /**
          * AuthorAssociation
@@ -11111,6 +11031,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -11239,6 +11160,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -11400,6 +11322,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       } & {
         active_lock_reason?: string | null;
@@ -11439,6 +11362,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees?: (Record<string, never> | null)[];
         author_association?: string;
@@ -11513,11 +11437,12 @@ export interface components {
           subscriptions_url?: string;
           type?: string;
           url?: string;
+          user_view_type?: string;
         };
       };
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * issue comment
@@ -11611,6 +11536,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization" | "Mannequin";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
     };
     /** issue_comment edited event */
@@ -11666,6 +11592,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -11702,6 +11629,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null)[];
         /**
          * AuthorAssociation
@@ -11797,6 +11725,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -11927,6 +11856,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -12088,6 +12018,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       } & {
         active_lock_reason?: string | null;
@@ -12127,6 +12058,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees?: (Record<string, never> | null)[];
         author_association?: string;
@@ -12205,7 +12137,7 @@ export interface components {
       };
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** @description The changes to the comment. */
     webhooks_changes: {
@@ -12227,7 +12159,7 @@ export interface components {
       issue: components["schemas"]["webhooks_issue"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Issue
@@ -12277,6 +12209,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization" | "Mannequin";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       assignees: ({
         /** Format: uri */
@@ -12313,6 +12246,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization" | "Mannequin";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null)[];
       /**
        * AuthorAssociation
@@ -12408,6 +12342,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         description: string | null;
         /** Format: date-time */
@@ -12538,6 +12473,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** @description The set of permissions for the GitHub app */
         permissions?: {
@@ -12699,6 +12635,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization" | "Mannequin";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
     };
     /** issues closed event */
@@ -12755,6 +12692,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -12791,6 +12729,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null)[];
         /**
          * AuthorAssociation
@@ -12886,6 +12825,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -13017,6 +12957,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -13178,6 +13119,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       } & {
         active_lock_reason?: string | null;
@@ -13238,11 +13180,12 @@ export interface components {
           subscriptions_url?: string;
           type?: string;
           url?: string;
+          user_view_type?: string;
         };
       };
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues deleted event */
     "webhook-issues-deleted": {
@@ -13298,6 +13241,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -13429,6 +13373,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -13558,6 +13503,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -13719,11 +13665,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues demilestoned event */
     "webhook-issues-demilestoned": {
@@ -13910,6 +13857,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -14038,6 +13986,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -14199,12 +14148,13 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       milestone?: components["schemas"]["webhooks_milestone"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Milestone
@@ -14252,6 +14202,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization" | "Mannequin";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       description: string | null;
       /** Format: date-time */
@@ -14342,6 +14293,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -14473,6 +14425,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -14604,6 +14557,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -14765,12 +14719,13 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       label?: components["schemas"]["webhooks_label"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues labeled event */
     "webhook-issues-labeled": {
@@ -14826,6 +14781,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -14957,6 +14913,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -15087,6 +15044,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -15248,12 +15206,13 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       label?: components["schemas"]["webhooks_label"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues locked event */
     "webhook-issues-locked": {
@@ -15309,6 +15268,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -15345,6 +15305,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null)[];
         /**
          * AuthorAssociation
@@ -15441,6 +15402,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -15571,6 +15533,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -15732,11 +15695,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues milestoned event */
     "webhook-issues-milestoned": {
@@ -15923,6 +15887,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -16052,6 +16017,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -16213,12 +16179,13 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       milestone: components["schemas"]["webhooks_milestone"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues opened event */
     "webhook-issues-opened": {
@@ -16273,6 +16240,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           assignees: ({
             /** Format: uri */
@@ -16309,6 +16277,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null)[];
           /**
            * AuthorAssociation
@@ -16404,6 +16373,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             description: string | null;
             /** Format: date-time */
@@ -16532,6 +16502,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             /** @description The set of permissions for the GitHub app */
             permissions?: {
@@ -16693,6 +16664,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         } | null;
         /**
@@ -16888,6 +16860,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           permissions?: {
             admin: boolean;
@@ -16988,6 +16961,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -17024,6 +16998,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null)[];
         /**
          * AuthorAssociation
@@ -17119,6 +17094,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -17250,6 +17226,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -17411,11 +17388,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues pinned event */
     "webhook-issues-pinned": {
@@ -17426,7 +17404,7 @@ export interface components {
       issue: components["schemas"]["webhooks_issue_2"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Issue
@@ -17476,6 +17454,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       assignees: ({
         /** Format: uri */
@@ -17512,6 +17491,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null)[];
       /**
        * AuthorAssociation
@@ -17607,6 +17587,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         description: string | null;
         /** Format: date-time */
@@ -17735,6 +17716,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** @description The set of permissions for the GitHub app */
         permissions?: {
@@ -17896,6 +17878,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
     };
     /** issues reopened event */
@@ -18083,6 +18066,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -18213,6 +18197,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -18374,11 +18359,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues transferred event */
     "webhook-issues-transferred": {
@@ -18433,6 +18419,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           assignees: ({
             /** Format: uri */
@@ -18469,6 +18456,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null)[];
           /**
            * AuthorAssociation
@@ -18564,6 +18552,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             description: string | null;
             /** Format: date-time */
@@ -18692,6 +18681,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             /** @description The set of permissions for the GitHub app */
             permissions?: {
@@ -18853,6 +18843,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /**
@@ -19051,6 +19042,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           permissions?: {
             admin: boolean;
@@ -19106,7 +19098,7 @@ export interface components {
       issue: components["schemas"]["webhooks_issue_2"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues unassigned event */
     "webhook-issues-unassigned": {
@@ -19121,7 +19113,7 @@ export interface components {
       issue: components["schemas"]["webhooks_issue"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** User */
     webhooks_user_mannequin: {
@@ -19159,6 +19151,7 @@ export interface components {
       type?: "Bot" | "User" | "Organization" | "Mannequin";
       /** Format: uri */
       url?: string;
+      user_view_type?: string;
     } | null;
     /** issues unlabeled event */
     "webhook-issues-unlabeled": {
@@ -19170,7 +19163,7 @@ export interface components {
       label?: components["schemas"]["webhooks_label"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues unlocked event */
     "webhook-issues-unlocked": {
@@ -19226,6 +19219,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -19262,6 +19256,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null)[];
         /**
          * AuthorAssociation
@@ -19358,6 +19353,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -19486,6 +19482,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description The set of permissions for the GitHub app */
           permissions?: {
@@ -19647,11 +19644,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** issues unpinned event */
     "webhook-issues-unpinned": {
@@ -19662,7 +19660,7 @@ export interface components {
       issue: components["schemas"]["webhooks_issue_2"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** label created event */
     "webhook-label-created": {
@@ -19673,7 +19671,7 @@ export interface components {
       label: components["schemas"]["webhooks_label"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** label deleted event */
     "webhook-label-deleted": {
@@ -19684,7 +19682,7 @@ export interface components {
       label: components["schemas"]["webhooks_label"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** label edited event */
     "webhook-label-edited": {
@@ -19710,7 +19708,7 @@ export interface components {
       label: components["schemas"]["webhooks_label"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** member added event */
     "webhook-member-added": {
@@ -19727,7 +19725,7 @@ export interface components {
       member: components["schemas"]["webhooks_user"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** member edited event */
     "webhook-member-edited": {
@@ -19749,7 +19747,7 @@ export interface components {
       member: components["schemas"]["webhooks_user"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** member removed event */
     "webhook-member-removed": {
@@ -19760,7 +19758,7 @@ export interface components {
       member: components["schemas"]["webhooks_user"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** membership added event */
     "webhook-membership-added": {
@@ -19812,6 +19810,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       team: components["schemas"]["webhooks_team"];
     };
@@ -19929,6 +19928,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       team: components["schemas"]["webhooks_team"];
     };
@@ -20013,7 +20013,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: null | components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** milestone closed event */
     "webhook-milestone-closed": {
@@ -20185,7 +20185,7 @@ export interface components {
       milestone: components["schemas"]["webhooks_milestone"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** milestone edited event */
     "webhook-milestone-edited": {
@@ -20211,7 +20211,7 @@ export interface components {
       milestone: components["schemas"]["webhooks_milestone"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** milestone opened event */
     "webhook-milestone-opened": {
@@ -20302,7 +20302,7 @@ export interface components {
       membership?: components["schemas"]["webhooks_membership"];
       organization: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Membership
@@ -20352,6 +20352,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
     };
     /** organization member_added event */
@@ -20363,7 +20364,7 @@ export interface components {
       membership: components["schemas"]["webhooks_membership"];
       organization: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** organization member_invited event */
     "webhook-organization-member-invited": {
@@ -20418,6 +20419,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         login: string | null;
         node_id: string;
@@ -20427,7 +20429,7 @@ export interface components {
       };
       organization: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       user?: components["schemas"]["webhooks_user"];
     };
     /** organization member_removed event */
@@ -20439,7 +20441,7 @@ export interface components {
       membership: components["schemas"]["webhooks_membership"];
       organization: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** organization renamed event */
     "webhook-organization-renamed": {
@@ -20455,7 +20457,7 @@ export interface components {
       membership?: components["schemas"]["webhooks_membership"];
       organization: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** package published event */
     "webhook-package-published": {
@@ -20510,6 +20512,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         package_type: string;
         package_version: {
@@ -20549,6 +20552,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           body?: string | Record<string, never>;
           body_html?: string;
@@ -20686,6 +20690,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             created_at: string;
             draft: boolean;
@@ -20721,7 +20726,7 @@ export interface components {
         updated_at: string | null;
       };
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Ruby Gems metadata */
     "webhook-rubygems-metadata": {
@@ -20795,6 +20800,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         package_type: string;
         package_version: {
@@ -20834,6 +20840,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           body: string;
           body_html: string;
@@ -20905,6 +20912,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             created_at: string;
             draft: boolean;
@@ -20941,7 +20949,7 @@ export interface components {
         updated_at: string;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** page_build event */
     "webhook-page-build": {
@@ -20989,6 +20997,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         status: string;
         updated_at: string;
@@ -21000,7 +21009,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** personal_access_token_request approved event */
     "webhook-personal-access-token-request-approved": {
@@ -21009,7 +21018,7 @@ export interface components {
       personal_access_token_request: components["schemas"]["personal-access-token-request"];
       enterprise?: components["schemas"]["enterprise-webhooks"];
       organization: components["schemas"]["organization-simple-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       installation: components["schemas"]["simple-installation"];
     };
     /**
@@ -21078,6 +21087,10 @@ export interface components {
         | null;
       /** @description Date and time when the request for access was created. */
       created_at: string;
+      /** @description Unique identifier of the user's token. This field can also be found in audit log events and the organization's settings for their PAT grants. */
+      token_id: number;
+      /** @description The name given to the user's token. This field can also be found in an organization's settings page for Active Tokens. */
+      token_name: string;
       /** @description Whether the associated fine-grained personal access token has expired. */
       token_expired: boolean;
       /** @description Date and time when the associated fine-grained personal access token expires. */
@@ -21092,7 +21105,7 @@ export interface components {
       personal_access_token_request: components["schemas"]["personal-access-token-request"];
       enterprise?: components["schemas"]["enterprise-webhooks"];
       organization: components["schemas"]["organization-simple-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       installation: components["schemas"]["simple-installation"];
     };
     /** personal_access_token_request created event */
@@ -21102,7 +21115,7 @@ export interface components {
       personal_access_token_request: components["schemas"]["personal-access-token-request"];
       enterprise?: components["schemas"]["enterprise-webhooks"];
       organization: components["schemas"]["organization-simple-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       installation?: components["schemas"]["simple-installation"];
     };
     /** personal_access_token_request denied event */
@@ -21112,7 +21125,7 @@ export interface components {
       personal_access_token_request: components["schemas"]["personal-access-token-request"];
       organization: components["schemas"]["organization-simple-webhooks"];
       enterprise?: components["schemas"]["enterprise-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       installation: components["schemas"]["simple-installation"];
     };
     "webhook-ping": {
@@ -21159,7 +21172,7 @@ export interface components {
       hook_id?: number;
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
       /** @description Random string of GitHub zen. */
       zen?: string;
     };
@@ -21193,7 +21206,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project_card: components["schemas"]["webhooks_project_card"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Project Card */
     webhooks_project_card: {
@@ -21243,6 +21256,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       /** @description The project card's ID */
       id: number;
@@ -21264,7 +21278,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project_card: components["schemas"]["webhooks_project_card"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** project_card deleted event */
     "webhook-project-card-deleted": {
@@ -21321,6 +21335,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** @description The project card's ID */
         id: number;
@@ -21334,7 +21349,7 @@ export interface components {
         url: string;
       };
       repository?: null | components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** project_card edited event */
     "webhook-project-card-edited": {
@@ -21350,7 +21365,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project_card: components["schemas"]["webhooks_project_card"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** project_card moved event */
     "webhook-project-card-moved": {
@@ -21411,6 +21426,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** @description The project card's ID */
         id: number;
@@ -21456,7 +21472,7 @@ export interface components {
         url?: string;
       };
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** project closed event */
     "webhook-project-closed": {
@@ -21467,7 +21483,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project: components["schemas"]["webhooks_project"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Project */
     webhooks_project: {
@@ -21513,6 +21529,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       /** Format: uri */
       html_url: string;
@@ -21542,7 +21559,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project_column: components["schemas"]["webhooks_project_column"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** Project Column */
     webhooks_project_column: {
@@ -21572,7 +21589,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project_column: components["schemas"]["webhooks_project_column"];
       repository?: null | components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** project_column edited event */
     "webhook-project-column-edited": {
@@ -21588,7 +21605,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project_column: components["schemas"]["webhooks_project_column"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** project_column moved event */
     "webhook-project-column-moved": {
@@ -21599,7 +21616,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project_column: components["schemas"]["webhooks_project_column"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** project created event */
     "webhook-project-created": {
@@ -21610,7 +21627,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project: components["schemas"]["webhooks_project"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** project deleted event */
     "webhook-project-deleted": {
@@ -21621,7 +21638,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project: components["schemas"]["webhooks_project"];
       repository?: null | components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** project edited event */
     "webhook-project-edited": {
@@ -21643,7 +21660,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project: components["schemas"]["webhooks_project"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** project reopened event */
     "webhook-project-reopened": {
@@ -21654,7 +21671,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       project: components["schemas"]["webhooks_project"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Project Closed Event */
     "webhook-projects-v2-project-closed": {
@@ -21663,7 +21680,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2: components["schemas"]["projects-v2"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Projects v2 Project
@@ -21696,7 +21713,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2: components["schemas"]["projects-v2"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Project Deleted Event */
     "webhook-projects-v2-project-deleted": {
@@ -21705,7 +21722,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2: components["schemas"]["projects-v2"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Project Edited Event */
     "webhook-projects-v2-project-edited": {
@@ -21732,7 +21749,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2: components["schemas"]["projects-v2"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Item Archived Event */
     "webhook-projects-v2-item-archived": {
@@ -21742,7 +21759,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2_item: components["schemas"]["projects-v2-item"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     webhooks_project_changes: {
       archived_at?: {
@@ -21789,7 +21806,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2_item: components["schemas"]["projects-v2-item"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Item Created Event */
     "webhook-projects-v2-item-created": {
@@ -21798,7 +21815,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2_item: components["schemas"]["projects-v2-item"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Item Deleted Event */
     "webhook-projects-v2-item-deleted": {
@@ -21807,7 +21824,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2_item: components["schemas"]["projects-v2-item"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Item Edited Event */
     "webhook-projects-v2-item-edited": {
@@ -21836,7 +21853,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2_item: components["schemas"]["projects-v2-item"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Item Reordered Event */
     "webhook-projects-v2-item-reordered": {
@@ -21851,7 +21868,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2_item: components["schemas"]["projects-v2-item"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Item Restored Event */
     "webhook-projects-v2-item-restored": {
@@ -21861,7 +21878,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2_item: components["schemas"]["projects-v2-item"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** Projects v2 Project Reopened Event */
     "webhook-projects-v2-project-reopened": {
@@ -21870,7 +21887,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization: components["schemas"]["organization-simple-webhooks"];
       projects_v2: components["schemas"]["projects-v2"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** public event */
     "webhook-public": {
@@ -21878,7 +21895,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request assigned event */
     "webhook-pull-request-assigned": {
@@ -21977,6 +21994,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -22013,6 +22031,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null)[];
         /**
          * AuthorAssociation
@@ -22073,6 +22092,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -22296,6 +22316,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -22359,7 +22380,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -22408,6 +22429,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -22643,6 +22665,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -22706,7 +22729,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -22755,6 +22778,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -22822,6 +22846,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * Milestone
@@ -22869,6 +22894,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -22937,6 +22963,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -23097,10 +23124,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** @description The pull request number. */
     webhooks_number: number;
@@ -23200,6 +23228,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -23296,6 +23325,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -23519,6 +23549,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -23582,7 +23613,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -23631,6 +23662,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -23866,6 +23898,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -23929,7 +23962,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -23978,6 +24011,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -24045,6 +24079,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * Milestone
@@ -24092,6 +24127,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -24160,6 +24196,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -24320,11 +24357,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       reason: string;
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request auto_merge_enabled event */
     "webhook-pull-request-auto-merge-enabled": {
@@ -24422,6 +24460,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -24518,6 +24557,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -24741,6 +24781,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -24804,7 +24845,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -24853,6 +24894,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -25085,6 +25127,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -25148,7 +25191,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -25197,6 +25240,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -25264,6 +25308,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * Milestone
@@ -25311,6 +25356,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -25379,6 +25425,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -25539,11 +25586,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       reason?: string;
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request closed event */
     "webhook-pull-request-closed": {
@@ -25555,7 +25603,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       pull_request: components["schemas"]["pull-request-webhook"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     "pull-request-webhook": components["schemas"]["pull-request"] & {
       /**
@@ -25601,7 +25649,7 @@ export interface components {
        */
       squash_merge_commit_title?: "PR_TITLE" | "COMMIT_OR_PR_TITLE";
       /**
-       * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.**
+       * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.**
        * @default false
        */
       use_squash_pr_title_as_default?: boolean;
@@ -25616,7 +25664,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       pull_request: components["schemas"]["pull-request-webhook"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request demilestoned event */
     "webhook-pull-request-demilestoned": {
@@ -25628,7 +25676,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       pull_request: components["schemas"]["webhooks_pull_request_5"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** Pull Request */
     webhooks_pull_request_5: {
@@ -25718,6 +25766,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization" | "Mannequin";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       assignees: ({
         /** Format: uri */
@@ -25814,6 +25863,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * @description The merge method to use.
@@ -26037,6 +26087,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           permissions?: {
             admin: boolean;
@@ -26146,6 +26197,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       body: string | null;
@@ -26381,6 +26433,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           permissions?: {
             admin: boolean;
@@ -26490,6 +26543,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       /** Format: uri */
@@ -26557,6 +26611,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization" | "Mannequin";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       /**
        * Milestone
@@ -26604,6 +26659,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         description: string | null;
         /** Format: date-time */
@@ -26832,6 +26888,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization" | "Mannequin";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
     };
     /** pull_request edited event */
@@ -26863,7 +26920,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       pull_request: components["schemas"]["pull-request-webhook"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** pull_request labeled event */
     "webhook-pull-request-labeled": {
@@ -26962,6 +27019,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -27058,6 +27116,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -27281,6 +27340,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -27344,7 +27404,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -27393,6 +27453,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -27628,6 +27689,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -27691,7 +27753,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -27740,6 +27802,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -27807,6 +27870,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * Milestone
@@ -27854,6 +27918,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -27922,6 +27987,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -28082,10 +28148,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request locked event */
     "webhook-pull-request-locked": {
@@ -28183,6 +28250,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -28279,6 +28347,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -28502,6 +28571,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -28565,7 +28635,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -28614,6 +28684,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -28849,6 +28920,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -28912,7 +28984,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -28961,6 +29033,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -29028,6 +29101,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * Milestone
@@ -29075,6 +29149,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -29143,6 +29218,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -29303,10 +29379,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request milestoned event */
     "webhook-pull-request-milestoned": {
@@ -29318,7 +29395,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       pull_request: components["schemas"]["webhooks_pull_request_5"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** pull_request opened event */
     "webhook-pull-request-opened": {
@@ -29330,7 +29407,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       pull_request: components["schemas"]["pull-request-webhook"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request ready_for_review event */
     "webhook-pull-request-ready-for-review": {
@@ -29342,7 +29419,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       pull_request: components["schemas"]["pull-request-webhook"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request reopened event */
     "webhook-pull-request-reopened": {
@@ -29354,7 +29431,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       pull_request: components["schemas"]["pull-request-webhook"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request_review_comment created event */
     "webhook-pull-request-review-comment-created": {
@@ -29512,6 +29589,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       enterprise?: components["schemas"]["enterprise-webhooks"];
@@ -29603,6 +29681,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -29699,6 +29778,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -29922,6 +30002,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -29985,7 +30066,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -30034,6 +30115,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -30262,6 +30344,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -30325,7 +30408,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -30374,6 +30457,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -30445,6 +30529,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -30511,6 +30596,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -30665,10 +30751,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request_review_comment deleted event */
     "webhook-pull-request-review-comment-deleted": {
@@ -30764,6 +30851,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -30860,6 +30948,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -31083,6 +31172,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -31146,7 +31236,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -31195,6 +31285,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -31423,6 +31514,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -31486,7 +31578,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -31535,6 +31627,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -31606,6 +31699,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -31672,6 +31766,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -31826,10 +31921,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Pull Request Review Comment
@@ -31983,6 +32079,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
     };
     /** pull_request_review_comment edited event */
@@ -32080,6 +32177,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -32116,6 +32214,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null)[];
         /**
          * AuthorAssociation
@@ -32176,6 +32275,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -32399,6 +32499,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -32462,7 +32563,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -32511,6 +32612,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -32739,6 +32841,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -32802,7 +32905,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -32851,6 +32954,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -32922,6 +33026,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -32988,6 +33093,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -33140,12 +33246,13 @@ export interface components {
           subscriptions_url?: string;
           /** @enum {string} */
           type?: "Bot" | "User" | "Organization" | "Mannequin";
+          user_view_type?: string;
           /** Format: uri */
           url?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request_review dismissed event */
     "webhook-pull-request-review-dismissed": {
@@ -33241,6 +33348,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -33337,6 +33445,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -33560,6 +33669,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -33623,7 +33733,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -33672,6 +33782,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -33900,6 +34011,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -33963,7 +34075,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -34012,6 +34124,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -34083,6 +34196,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -34149,6 +34263,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -34303,6 +34418,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
@@ -34386,9 +34502,10 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request_review edited event */
     "webhook-pull-request-review-edited": {
@@ -34490,6 +34607,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -34586,6 +34704,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -34787,6 +34906,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -34872,6 +34992,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -35078,6 +35199,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -35163,6 +35285,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -35234,6 +35357,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -35300,6 +35424,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -35454,11 +35579,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
       review: components["schemas"]["webhooks_review"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** @description The review that was affected. */
     webhooks_review: {
@@ -35539,6 +35665,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
     };
     /** pull_request review_request_removed event */
@@ -35640,6 +35767,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             assignees: ({
               /** Format: uri */
@@ -35676,6 +35804,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null)[];
             /**
              * AuthorAssociation
@@ -35736,6 +35865,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
               /**
                * @description The merge method to use.
@@ -35959,6 +36089,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null;
                 permissions?: {
                   admin: boolean;
@@ -36015,7 +36146,7 @@ export interface components {
                 /** Format: uri */
                 url: string;
                 /**
-                 * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+                 * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
                  * @default false
                  */
                 use_squash_pr_title_as_default?: boolean;
@@ -36064,6 +36195,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
             };
             body: string | null;
@@ -36299,6 +36431,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null;
                 permissions?: {
                   admin: boolean;
@@ -36362,7 +36495,7 @@ export interface components {
                 /** Format: uri */
                 url: string;
                 /**
-                 * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+                 * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
                  * @default false
                  */
                 use_squash_pr_title_as_default?: boolean;
@@ -36411,6 +36544,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
             };
             /** Format: uri */
@@ -36478,6 +36612,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             /**
              * Milestone
@@ -36525,6 +36660,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
               description: string | null;
               /** Format: date-time */
@@ -36593,6 +36729,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null,
                 {
                   deleted?: boolean;
@@ -36753,6 +36890,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
           };
           repository: components["schemas"]["repository-webhooks"];
@@ -36792,8 +36930,9 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
-          sender: components["schemas"]["simple-user-webhooks"];
+          sender: components["schemas"]["simple-user"];
         },
         {
           /** @enum {string} */
@@ -36891,6 +37030,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             assignees: ({
               /** Format: uri */
@@ -36927,6 +37067,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null)[];
             /**
              * AuthorAssociation
@@ -36987,6 +37128,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
               /**
                * @description The merge method to use.
@@ -37210,6 +37352,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null;
                 permissions?: {
                   admin: boolean;
@@ -37273,7 +37416,7 @@ export interface components {
                 /** Format: uri */
                 url: string;
                 /**
-                 * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+                 * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
                  * @default false
                  */
                 use_squash_pr_title_as_default?: boolean;
@@ -37322,6 +37465,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
             };
             body: string | null;
@@ -37557,6 +37701,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null;
                 permissions?: {
                   admin: boolean;
@@ -37620,7 +37765,7 @@ export interface components {
                 /** Format: uri */
                 url: string;
                 /**
-                 * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+                 * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
                  * @default false
                  */
                 use_squash_pr_title_as_default?: boolean;
@@ -37669,6 +37814,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
             };
             /** Format: uri */
@@ -37736,6 +37882,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             /**
              * Milestone
@@ -37783,6 +37930,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
               description: string | null;
               /** Format: date-time */
@@ -37851,6 +37999,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null,
                 {
                   deleted?: boolean;
@@ -38011,6 +38160,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
           };
           repository: components["schemas"]["repository-webhooks"];
@@ -38069,7 +38219,7 @@ export interface components {
              */
             url: string;
           };
-          sender: components["schemas"]["simple-user-webhooks"];
+          sender: components["schemas"]["simple-user"];
         },
       ]
     >;
@@ -38172,6 +38322,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             assignees: ({
               /** Format: uri */
@@ -38208,6 +38359,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null)[];
             /**
              * AuthorAssociation
@@ -38268,6 +38420,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
               /**
                * @description The merge method to use.
@@ -38491,6 +38644,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null;
                 permissions?: {
                   admin: boolean;
@@ -38554,7 +38708,7 @@ export interface components {
                 /** Format: uri */
                 url: string;
                 /**
-                 * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+                 * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
                  * @default false
                  */
                 use_squash_pr_title_as_default?: boolean;
@@ -38603,6 +38757,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
             };
             body: string | null;
@@ -38838,6 +38993,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null;
                 permissions?: {
                   admin: boolean;
@@ -38901,7 +39057,7 @@ export interface components {
                 /** Format: uri */
                 url: string;
                 /**
-                 * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+                 * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
                  * @default false
                  */
                 use_squash_pr_title_as_default?: boolean;
@@ -38950,6 +39106,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
             };
             /** Format: uri */
@@ -39017,6 +39174,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             /**
              * Milestone
@@ -39064,6 +39222,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization" | "Mannequin";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
               description: string | null;
               /** Format: date-time */
@@ -39132,6 +39291,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null,
                 {
                   deleted?: boolean;
@@ -39292,6 +39452,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
           };
           repository: components["schemas"]["repository-webhooks"];
@@ -39331,8 +39492,9 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
-          sender: components["schemas"]["simple-user-webhooks"];
+          sender: components["schemas"]["simple-user"];
         },
         {
           /** @enum {string} */
@@ -39430,6 +39592,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             assignees: ({
               /** Format: uri */
@@ -39466,6 +39629,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null)[];
             /**
              * AuthorAssociation
@@ -39526,6 +39690,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
               /**
                * @description The merge method to use.
@@ -39749,6 +39914,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null;
                 permissions?: {
                   admin: boolean;
@@ -39812,7 +39978,7 @@ export interface components {
                 /** Format: uri */
                 url: string;
                 /**
-                 * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+                 * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
                  * @default false
                  */
                 use_squash_pr_title_as_default?: boolean;
@@ -39861,6 +40027,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
             };
             body: string | null;
@@ -40096,6 +40263,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null;
                 permissions?: {
                   admin: boolean;
@@ -40159,7 +40327,7 @@ export interface components {
                 /** Format: uri */
                 url: string;
                 /**
-                 * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+                 * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
                  * @default false
                  */
                 use_squash_pr_title_as_default?: boolean;
@@ -40208,6 +40376,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
             };
             /** Format: uri */
@@ -40275,6 +40444,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             /**
              * Milestone
@@ -40322,6 +40492,7 @@ export interface components {
                 type?: "Bot" | "User" | "Organization" | "Mannequin";
                 /** Format: uri */
                 url?: string;
+                user_view_type?: string;
               } | null;
               description: string | null;
               /** Format: date-time */
@@ -40390,6 +40561,7 @@ export interface components {
                   type?: "Bot" | "User" | "Organization";
                   /** Format: uri */
                   url?: string;
+                  user_view_type?: string;
                 } | null,
                 {
                   deleted?: boolean;
@@ -40550,6 +40722,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
           };
           repository: components["schemas"]["repository-webhooks"];
@@ -40608,7 +40781,7 @@ export interface components {
              */
             url?: string;
           };
-          sender: components["schemas"]["simple-user-webhooks"];
+          sender: components["schemas"]["simple-user"];
         },
       ]
     >;
@@ -40706,6 +40879,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -40802,6 +40976,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -41025,6 +41200,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -41088,7 +41264,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -41137,6 +41313,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -41365,6 +41542,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -41428,7 +41606,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -41477,6 +41655,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -41548,6 +41727,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -41614,6 +41794,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -41768,11 +41949,12 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
       review: components["schemas"]["webhooks_review"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request_review_thread resolved event */
     "webhook-pull-request-review-thread-resolved": {
@@ -41868,6 +42050,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -41964,6 +42147,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -42170,6 +42354,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -42257,6 +42442,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -42468,6 +42654,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -42555,6 +42742,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -42626,6 +42814,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -42692,6 +42881,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -42846,10 +43036,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
       thread: {
         comments: {
           _links: {
@@ -42999,6 +43190,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         }[];
         node_id: string;
@@ -43098,6 +43290,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -43194,6 +43387,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -43400,6 +43594,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -43487,6 +43682,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -43698,6 +43894,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -43785,6 +43982,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -43856,6 +44054,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -43922,6 +44121,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -44076,10 +44276,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
       thread: {
         comments: {
           _links: {
@@ -44229,6 +44430,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         }[];
         node_id: string;
@@ -44332,6 +44534,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -44428,6 +44631,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -44651,6 +44855,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -44714,7 +44919,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -44763,6 +44968,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -44991,6 +45197,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -45054,7 +45261,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -45103,6 +45310,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -45170,6 +45378,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * Milestone
@@ -45217,6 +45426,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -45285,6 +45495,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -45445,10 +45656,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request unassigned event */
     "webhook-pull-request-unassigned": {
@@ -45547,6 +45759,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -45643,6 +45856,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -45866,6 +46080,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -45929,7 +46144,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -45978,6 +46193,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -46213,6 +46429,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -46276,7 +46493,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -46325,6 +46542,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -46392,6 +46610,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * Milestone
@@ -46439,6 +46658,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -46507,6 +46727,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -46667,10 +46888,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** pull_request unlabeled event */
     "webhook-pull-request-unlabeled": {
@@ -46769,6 +46991,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -46865,6 +47088,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -47088,6 +47312,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -47151,7 +47376,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -47200,6 +47425,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -47428,6 +47654,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -47491,7 +47718,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -47540,6 +47767,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -47607,6 +47835,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * Milestone
@@ -47654,6 +47883,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization" | "Mannequin";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -47722,6 +47952,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization" | "Mannequin";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -47882,10 +48113,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization" | "Mannequin";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** pull_request unlocked event */
     "webhook-pull-request-unlocked": {
@@ -47983,6 +48215,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         assignees: ({
           /** Format: uri */
@@ -48079,6 +48312,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /**
            * @description The merge method to use.
@@ -48302,6 +48536,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -48365,7 +48600,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -48414,6 +48649,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         body: string | null;
@@ -48649,6 +48885,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
             permissions?: {
               admin: boolean;
@@ -48712,7 +48949,7 @@ export interface components {
             /** Format: uri */
             url: string;
             /**
-             * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
+             * @description Whether a squash merge commit can use the pull request title as default. **This property is closing down. Please use `squash_merge_commit_title` instead.
              * @default false
              */
             use_squash_pr_title_as_default?: boolean;
@@ -48761,6 +48998,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
         };
         /** Format: uri */
@@ -48828,6 +49066,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /**
          * Milestone
@@ -48875,6 +49114,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           description: string | null;
           /** Format: date-time */
@@ -48943,6 +49183,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null,
             {
               deleted?: boolean;
@@ -49103,10 +49344,11 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** push event */
     "webhook-push": {
@@ -49439,6 +49681,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         permissions?: {
           admin: boolean;
@@ -49488,7 +49731,7 @@ export interface components {
         /** @description Whether to require contributors to sign off on web-based commits */
         web_commit_signoff_required?: boolean;
       };
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     webhooks_nullable_string: string | null;
     "webhook-registry-package-published": {
@@ -49524,6 +49767,7 @@ export interface components {
           subscriptions_url: string;
           type: string;
           url: string;
+          user_view_type?: string;
         };
         package_type: string;
         package_version: {
@@ -49546,6 +49790,7 @@ export interface components {
             subscriptions_url: string;
             type: string;
             url: string;
+            user_view_type?: string;
           };
           body?: string | Record<string, never>;
           body_html?: string;
@@ -49664,6 +49909,7 @@ export interface components {
               subscriptions_url?: string;
               type?: string;
               url?: string;
+              user_view_type?: string;
             };
             created_at?: string;
             draft?: boolean;
@@ -49694,7 +49940,7 @@ export interface components {
         updated_at: string | null;
       };
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     "webhook-registry-package-updated": {
       /** @enum {string} */
@@ -49729,6 +49975,7 @@ export interface components {
           subscriptions_url: string;
           type: string;
           url: string;
+          user_view_type?: string;
         };
         package_type: string;
         package_version: {
@@ -49751,6 +49998,7 @@ export interface components {
             subscriptions_url: string;
             type: string;
             url: string;
+            user_view_type?: string;
           };
           body: string;
           body_html: string;
@@ -49803,6 +50051,7 @@ export interface components {
               subscriptions_url: string;
               type: string;
               url: string;
+              user_view_type?: string;
             };
             created_at: string;
             draft: boolean;
@@ -49827,7 +50076,7 @@ export interface components {
         updated_at: string;
       };
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** release created event */
     "webhook-release-created": {
@@ -49838,7 +50087,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       release: components["schemas"]["webhooks_release"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Release
@@ -49943,6 +50192,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       body: string | null;
       /** Format: date-time */
@@ -49996,7 +50246,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       release: components["schemas"]["webhooks_release"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** release edited event */
     "webhook-release-edited": {
@@ -50021,7 +50271,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       release: components["schemas"]["webhooks_release"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** release prereleased event */
     "webhook-release-prereleased": {
@@ -50133,6 +50383,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         body: string | null;
         /** Format: date-time */
@@ -50181,7 +50432,7 @@ export interface components {
         zipball_url: string | null;
       };
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** release published event */
     "webhook-release-published": {
@@ -50192,7 +50443,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       release: components["schemas"]["webhooks_release_1"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /**
      * Release
@@ -50297,6 +50548,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       body: string | null;
       /** Format: date-time */
@@ -50350,7 +50602,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       release: components["schemas"]["webhooks_release"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** release unpublished event */
     "webhook-release-unpublished": {
@@ -50361,7 +50613,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       release: components["schemas"]["webhooks_release_1"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     "webhook-repository-anonymous-access-disabled": {
       /** @enum {string} */
@@ -50370,7 +50622,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     "webhook-repository-anonymous-access-enabled": {
       /** @enum {string} */
@@ -50379,7 +50631,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** repository archived event */
     "webhook-repository-archived": {
@@ -50389,7 +50641,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository created event */
     "webhook-repository-created": {
@@ -50399,7 +50651,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository deleted event */
     "webhook-repository-deleted": {
@@ -50409,7 +50661,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository_dispatch event */
     "webhook-repository-dispatch-sample": {
@@ -50424,7 +50676,7 @@ export interface components {
       installation: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository edited event */
     "webhook-repository-edited": {
@@ -50448,7 +50700,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository privatized event */
     "webhook-repository-privatized": {
@@ -50458,7 +50710,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository publicized event */
     "webhook-repository-publicized": {
@@ -50468,7 +50720,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository renamed event */
     "webhook-repository-renamed": {
@@ -50485,7 +50737,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository ruleset created event */
     "webhook-repository-ruleset-created": {
@@ -50496,7 +50748,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
       repository_ruleset: components["schemas"]["repository-ruleset"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Repository ruleset
@@ -50537,7 +50789,7 @@ export interface components {
         html?: {
           /** @description The html URL of the ruleset */
           href?: string;
-        };
+        } | null;
       };
       conditions?:
         | null
@@ -50573,8 +50825,8 @@ export interface components {
         | "RepositoryRole"
         | "Team";
       /**
-       * @description When the specified actor can bypass the ruleset. `pull_request` means that an actor can only bypass rules on pull requests. `pull_request` is not applicable for the `DeployKey` actor type.
-       *
+       * @description When the specified actor can bypass the ruleset. `pull_request` means that an actor can only bypass rules on pull requests. `pull_request` is not applicable for the `DeployKey` actor type. Also, `pull_request` is only applicable to branch rulesets.
+       * @default always
        * @enum {string}
        */
       bypass_mode: "always" | "pull_request";
@@ -50593,7 +50845,9 @@ export interface components {
     };
     /**
      * Organization ruleset conditions
-     * @description Conditions for an organization ruleset. The conditions object should contain both `repository_name` and `ref_name` properties or both `repository_id` and `ref_name` properties.
+     * @description Conditions for an organization ruleset.
+     * The branch and tag rulesets conditions object should contain both `repository_name` and `ref_name` properties, or both `repository_id` and `ref_name` properties, or both `repository_property` and `ref_name` properties.
+     * The push rulesets conditions object does not require the `ref_name` property.
      */
     "org-ruleset-conditions":
       | (components["schemas"]["repository-ruleset-conditions"] &
@@ -50896,7 +51150,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
       repository_ruleset: components["schemas"]["repository-ruleset"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository ruleset edited event */
     "webhook-repository-ruleset-edited": {
@@ -50954,7 +51208,7 @@ export interface components {
           }[];
         };
       };
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository transferred event */
     "webhook-repository-transferred": {
@@ -51025,6 +51279,7 @@ export interface components {
               type?: "Bot" | "User" | "Organization";
               /** Format: uri */
               url?: string;
+              user_view_type?: string;
             } | null;
           };
         };
@@ -51033,7 +51288,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository unarchived event */
     "webhook-repository-unarchived": {
@@ -51043,7 +51298,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository_vulnerability_alert create event */
     "webhook-repository-vulnerability-alert-create": {
@@ -51054,7 +51309,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /**
      * Repository Vulnerability Alert Alert
@@ -51169,6 +51424,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         external_identifier: string;
         /** Format: uri */
@@ -51189,7 +51445,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository_vulnerability_alert reopen event */
     "webhook-repository-vulnerability-alert-reopen": {
@@ -51200,7 +51456,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** repository_vulnerability_alert resolve event */
     "webhook-repository-vulnerability-alert-resolve": {
@@ -51272,7 +51528,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** secret_scanning_alert created event */
     "webhook-secret-scanning-alert-created": {
@@ -51283,7 +51539,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     "secret-scanning-alert-webhook": {
       number?: components["schemas"]["alert-number"];
@@ -51342,7 +51598,7 @@ export interface components {
       location: components["schemas"]["secret-scanning-location"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     "secret-scanning-location": {
       /**
@@ -51494,7 +51750,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** secret_scanning_alert resolved event */
     "webhook-secret-scanning-alert-resolved": {
@@ -51505,7 +51761,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** security_advisory published event */
     "webhook-security-advisory-published": {
@@ -51516,7 +51772,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
       security_advisory: components["schemas"]["webhooks_security_advisory"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** @description The details of the security advisory, including summary, description, and severity. */
     webhooks_security_advisory: {
@@ -51524,6 +51780,7 @@ export interface components {
         score: number;
         vector_string: string | null;
       };
+      cvss_severities?: components["schemas"]["cvss-severities"];
       cwes: {
         cwe_id: string;
         name: string;
@@ -51564,7 +51821,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
       security_advisory: components["schemas"]["webhooks_security_advisory"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** security_advisory withdrawn event */
     "webhook-security-advisory-withdrawn": {
@@ -51580,6 +51837,7 @@ export interface components {
           score: number;
           vector_string: string | null;
         };
+        cvss_severities?: components["schemas"]["cvss-severities"];
         cwes: {
           cwe_id: string;
           name: string;
@@ -51611,7 +51869,7 @@ export interface components {
         }[];
         withdrawn_at: string;
       };
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /** security_and_analysis event */
     "webhook-security-and-analysis": {
@@ -51624,7 +51882,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["full-repository"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
     };
     /**
      * Full Repository
@@ -51800,244 +52058,6 @@ export interface components {
       security_and_analysis?: components["schemas"]["security-and-analysis"];
     };
     /**
-     * Repository
-     * @description A repository on GitHub.
-     */
-    repository: {
-      /**
-       * Format: int64
-       * @description Unique identifier of the repository
-       */
-      id: number;
-      node_id: string;
-      /** @description The name of the repository. */
-      name: string;
-      full_name: string;
-      license: null | components["schemas"]["license-simple"];
-      forks: number;
-      permissions?: {
-        admin: boolean;
-        pull: boolean;
-        triage?: boolean;
-        push: boolean;
-        maintain?: boolean;
-      };
-      owner: components["schemas"]["simple-user"];
-      /**
-       * @description Whether the repository is private or public.
-       * @default false
-       */
-      private: boolean;
-      /** Format: uri */
-      html_url: string;
-      description: string | null;
-      fork: boolean;
-      /** Format: uri */
-      url: string;
-      archive_url: string;
-      assignees_url: string;
-      blobs_url: string;
-      branches_url: string;
-      collaborators_url: string;
-      comments_url: string;
-      commits_url: string;
-      compare_url: string;
-      contents_url: string;
-      /** Format: uri */
-      contributors_url: string;
-      /** Format: uri */
-      deployments_url: string;
-      /** Format: uri */
-      downloads_url: string;
-      /** Format: uri */
-      events_url: string;
-      /** Format: uri */
-      forks_url: string;
-      git_commits_url: string;
-      git_refs_url: string;
-      git_tags_url: string;
-      git_url: string;
-      issue_comment_url: string;
-      issue_events_url: string;
-      issues_url: string;
-      keys_url: string;
-      labels_url: string;
-      /** Format: uri */
-      languages_url: string;
-      /** Format: uri */
-      merges_url: string;
-      milestones_url: string;
-      notifications_url: string;
-      pulls_url: string;
-      releases_url: string;
-      ssh_url: string;
-      /** Format: uri */
-      stargazers_url: string;
-      statuses_url: string;
-      /** Format: uri */
-      subscribers_url: string;
-      /** Format: uri */
-      subscription_url: string;
-      /** Format: uri */
-      tags_url: string;
-      /** Format: uri */
-      teams_url: string;
-      trees_url: string;
-      clone_url: string;
-      /** Format: uri */
-      mirror_url: string | null;
-      /** Format: uri */
-      hooks_url: string;
-      /** Format: uri */
-      svn_url: string;
-      /** Format: uri */
-      homepage: string | null;
-      language: string | null;
-      forks_count: number;
-      stargazers_count: number;
-      watchers_count: number;
-      /** @description The size of the repository, in kilobytes. Size is calculated hourly. When a repository is initially created, the size is 0. */
-      size: number;
-      /** @description The default branch of the repository. */
-      default_branch: string;
-      open_issues_count: number;
-      /**
-       * @description Whether this repository acts as a template that can be used to generate new repositories.
-       * @default false
-       */
-      is_template?: boolean;
-      topics?: string[];
-      /**
-       * @description Whether issues are enabled.
-       * @default true
-       */
-      has_issues: boolean;
-      /**
-       * @description Whether projects are enabled.
-       * @default true
-       */
-      has_projects: boolean;
-      /**
-       * @description Whether the wiki is enabled.
-       * @default true
-       */
-      has_wiki: boolean;
-      has_pages: boolean;
-      /**
-       * @deprecated
-       * @description Whether downloads are enabled.
-       * @default true
-       */
-      has_downloads: boolean;
-      /**
-       * @description Whether discussions are enabled.
-       * @default false
-       */
-      has_discussions?: boolean;
-      /**
-       * @description Whether the repository is archived.
-       * @default false
-       */
-      archived: boolean;
-      /** @description Returns whether or not this repository disabled. */
-      disabled: boolean;
-      /**
-       * @description The repository visibility: public, private, or internal.
-       * @default public
-       */
-      visibility?: string;
-      /** Format: date-time */
-      pushed_at: string | null;
-      /** Format: date-time */
-      created_at: string | null;
-      /** Format: date-time */
-      updated_at: string | null;
-      /**
-       * @description Whether to allow rebase merges for pull requests.
-       * @default true
-       */
-      allow_rebase_merge?: boolean;
-      temp_clone_token?: string;
-      /**
-       * @description Whether to allow squash merges for pull requests.
-       * @default true
-       */
-      allow_squash_merge?: boolean;
-      /**
-       * @description Whether to allow Auto-merge to be used on pull requests.
-       * @default false
-       */
-      allow_auto_merge?: boolean;
-      /**
-       * @description Whether to delete head branches when pull requests are merged
-       * @default false
-       */
-      delete_branch_on_merge?: boolean;
-      /**
-       * @description Whether or not a pull request head branch that is behind its base branch can always be updated even if it is not required to be up to date before merging.
-       * @default false
-       */
-      allow_update_branch?: boolean;
-      /**
-       * @deprecated
-       * @description Whether a squash merge commit can use the pull request title as default. **This property has been deprecated. Please use `squash_merge_commit_title` instead.
-       * @default false
-       */
-      use_squash_pr_title_as_default?: boolean;
-      /**
-       * @description The default value for a squash merge commit title:
-       *
-       * - `PR_TITLE` - default to the pull request's title.
-       * - `COMMIT_OR_PR_TITLE` - default to the commit's title (if only one commit) or the pull request's title (when more than one commit).
-       * @enum {string}
-       */
-      squash_merge_commit_title?: "PR_TITLE" | "COMMIT_OR_PR_TITLE";
-      /**
-       * @description The default value for a squash merge commit message:
-       *
-       * - `PR_BODY` - default to the pull request's body.
-       * - `COMMIT_MESSAGES` - default to the branch's commit messages.
-       * - `BLANK` - default to a blank commit message.
-       * @enum {string}
-       */
-      squash_merge_commit_message?: "PR_BODY" | "COMMIT_MESSAGES" | "BLANK";
-      /**
-       * @description The default value for a merge commit title.
-       *
-       * - `PR_TITLE` - default to the pull request's title.
-       * - `MERGE_MESSAGE` - default to the classic title for a merge message (e.g., Merge pull request #123 from branch-name).
-       * @enum {string}
-       */
-      merge_commit_title?: "PR_TITLE" | "MERGE_MESSAGE";
-      /**
-       * @description The default value for a merge commit message.
-       *
-       * - `PR_TITLE` - default to the pull request's title.
-       * - `PR_BODY` - default to the pull request's body.
-       * - `BLANK` - default to a blank commit message.
-       * @enum {string}
-       */
-      merge_commit_message?: "PR_BODY" | "PR_TITLE" | "BLANK";
-      /**
-       * @description Whether to allow merge commits for pull requests.
-       * @default true
-       */
-      allow_merge_commit?: boolean;
-      /** @description Whether to allow forking this repo */
-      allow_forking?: boolean;
-      /**
-       * @description Whether to require contributors to sign off on web-based commits
-       * @default false
-       */
-      web_commit_signoff_required?: boolean;
-      open_issues: number;
-      watchers: number;
-      master_branch?: string;
-      starred_at?: string;
-      /** @description Whether anonymous git access is enabled for this repository */
-      anonymous_access_enabled?: boolean;
-    };
-    /**
      * Code Of Conduct Simple
      * @description Code of Conduct Simple
      */
@@ -52057,7 +52077,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       sponsorship: components["schemas"]["webhooks_sponsorship"];
     };
     webhooks_sponsorship: {
@@ -52081,6 +52101,7 @@ export interface components {
         subscriptions_url?: string;
         type?: string;
         url?: string;
+        user_view_type?: string;
       };
       node_id: string;
       privacy_level: string;
@@ -52120,6 +52141,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       /** User */
       sponsorable: {
@@ -52157,6 +52179,7 @@ export interface components {
         type?: "Bot" | "User" | "Organization";
         /** Format: uri */
         url?: string;
+        user_view_type?: string;
       } | null;
       /**
        * Sponsorship Tier
@@ -52182,7 +52205,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       sponsorship: components["schemas"]["webhooks_sponsorship"];
     };
     /** sponsorship edited event */
@@ -52199,7 +52222,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       sponsorship: components["schemas"]["webhooks_sponsorship"];
     };
     /** sponsorship pending_cancellation event */
@@ -52211,7 +52234,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       sponsorship: components["schemas"]["webhooks_sponsorship"];
     };
     /** @description The `pending_cancellation` and `pending_tier_change` event types will include the date the cancellation or tier change will take effect. */
@@ -52226,7 +52249,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       sponsorship: components["schemas"]["webhooks_sponsorship"];
     };
     webhooks_changes_8: {
@@ -52257,7 +52280,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       sponsorship: components["schemas"]["webhooks_sponsorship"];
     };
     /** star created event */
@@ -52268,7 +52291,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       /** @description The time the star was created. This is a timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ`. Will be `null` for the `deleted` action. */
       starred_at: string | null;
     };
@@ -52280,7 +52303,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       /** @description The time the star was created. This is a timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ`. Will be `null` for the `deleted` action. */
       starred_at: null;
     };
@@ -52459,7 +52482,7 @@ export interface components {
       name: string;
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       /** @description The Commit SHA. */
       sha: string;
       /**
@@ -52477,7 +52500,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       team: components["schemas"]["webhooks_team_1"];
     };
     /**
@@ -52745,6 +52768,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         permissions?: {
           admin: boolean;
@@ -52792,7 +52816,7 @@ export interface components {
         watchers: number;
         watchers_count: number;
       };
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
       team: components["schemas"]["webhooks_team_1"];
     };
     /** team created event */
@@ -52993,6 +53017,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         permissions?: {
           admin: boolean;
@@ -53040,7 +53065,7 @@ export interface components {
         watchers: number;
         watchers_count: number;
       };
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       team: components["schemas"]["webhooks_team_1"];
     };
     /** team deleted event */
@@ -53241,6 +53266,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         permissions?: {
           admin: boolean;
@@ -53288,7 +53314,7 @@ export interface components {
         watchers: number;
         watchers_count: number;
       };
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
       team: components["schemas"]["webhooks_team_1"];
     };
     /** team edited event */
@@ -53520,6 +53546,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         permissions?: {
           admin: boolean;
@@ -53567,7 +53594,7 @@ export interface components {
         watchers: number;
         watchers_count: number;
       };
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       team: components["schemas"]["webhooks_team_1"];
     };
     /** team removed_from_repository event */
@@ -53768,6 +53795,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         permissions?: {
           admin: boolean;
@@ -53815,7 +53843,7 @@ export interface components {
         watchers: number;
         watchers_count: number;
       };
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       team: components["schemas"]["webhooks_team_1"];
     };
     "webhook-user-created": {
@@ -53825,7 +53853,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
       user?: components["schemas"]["webhooks_user"];
     };
     "webhook-user-deleted": {
@@ -53835,7 +53863,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository?: components["schemas"]["repository-webhooks"];
-      sender?: components["schemas"]["simple-user-webhooks"];
+      sender?: components["schemas"]["simple-user"];
       user?: components["schemas"]["webhooks_user"];
     };
     /** watch started event */
@@ -53846,7 +53874,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
     };
     /** workflow_dispatch event */
     "webhook-workflow-dispatch": {
@@ -53858,7 +53886,7 @@ export interface components {
       organization?: components["schemas"]["organization-simple-webhooks"];
       ref: string;
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow: string;
     };
     /** workflow_job completed event */
@@ -53869,7 +53897,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow_job: {
         /** Format: uri */
         check_run_url: string;
@@ -53974,7 +54002,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow_job: {
         /** Format: uri */
         check_run_url: string;
@@ -54072,7 +54100,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow_job: {
         /** Format: uri */
         check_run_url: string;
@@ -54126,7 +54154,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow_job: {
         /** Format: uri */
         check_run_url: string;
@@ -54185,7 +54213,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow: components["schemas"]["webhooks_workflow"];
       /** Workflow Run */
       workflow_run: {
@@ -54225,6 +54253,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: uri */
         artifacts_url: string;
@@ -54385,6 +54414,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description Whether the repository is private or public. */
           private: boolean;
@@ -54559,6 +54589,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description Whether the repository is private or public. */
           private: boolean;
@@ -54633,6 +54664,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: date-time */
         updated_at: string;
@@ -54653,7 +54685,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow: components["schemas"]["webhooks_workflow"];
       /** Workflow Run */
       workflow_run: {
@@ -55117,7 +55149,7 @@ export interface components {
       installation?: components["schemas"]["simple-installation"];
       organization?: components["schemas"]["organization-simple-webhooks"];
       repository: components["schemas"]["repository-webhooks"];
-      sender: components["schemas"]["simple-user-webhooks"];
+      sender: components["schemas"]["simple-user"];
       workflow: components["schemas"]["webhooks_workflow"];
       /** Workflow Run */
       workflow_run: {
@@ -55157,6 +55189,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: uri */
         artifacts_url: string;
@@ -55317,6 +55350,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description Whether the repository is private or public. */
           private: boolean;
@@ -55491,6 +55525,7 @@ export interface components {
             type?: "Bot" | "User" | "Organization";
             /** Format: uri */
             url?: string;
+            user_view_type?: string;
           } | null;
           /** @description Whether the repository is private or public. */
           private: boolean;
@@ -55565,6 +55600,7 @@ export interface components {
           type?: "Bot" | "User" | "Organization";
           /** Format: uri */
           url?: string;
+          user_view_type?: string;
         } | null;
         /** Format: date-time */
         updated_at: string;
@@ -56547,7 +56583,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+   * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
    * @description A manifest file change introduced a vulnerable dependency, or a GitHub Security Advisory was published and an existing dependency was found to be vulnerable.
    */
   "dependabot-alert/created": {
@@ -56593,7 +56629,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+   * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
    * @description A Dependabot alert was manually closed.
    */
   "dependabot-alert/dismissed": {
@@ -56639,7 +56675,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+   * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
    * @description A manifest file change removed a vulnerability.
    */
   "dependabot-alert/fixed": {
@@ -56685,7 +56721,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+   * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
    * @description A manifest file change introduced a vulnerable dependency that had previously been fixed.
    */
   "dependabot-alert/reintroduced": {
@@ -56731,7 +56767,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Dependabot alerts" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for Dependabot alerts are currently in beta and subject to change.
+   * > Webhook events for Dependabot alerts are currently in public preview and subject to change.
    * @description A Dependabot alert was manually reopened.
    */
   "dependabot-alert/reopened": {
@@ -57118,7 +57154,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A comment on the discussion was marked as the answer.
    */
   "discussion/answered": {
@@ -57164,7 +57200,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description The category of a discussion was changed.
    */
   "discussion/category-changed": {
@@ -57210,7 +57246,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A discussion was closed.
    */
   "discussion/closed": {
@@ -57256,7 +57292,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A comment on a discussion was created.
    */
   "discussion-comment/created": {
@@ -57302,7 +57338,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A comment on a discussion was deleted.
    */
   "discussion-comment/deleted": {
@@ -57348,7 +57384,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A comment on a discussion was edited.
    */
   "discussion-comment/edited": {
@@ -57394,7 +57430,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A discussion was created.
    */
   "discussion/created": {
@@ -57440,7 +57476,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A discussion was deleted.
    */
   "discussion/deleted": {
@@ -57486,7 +57522,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description The title or body on a discussion was edited, or the category of the discussion was changed.
    */
   "discussion/edited": {
@@ -57532,7 +57568,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A label was added to a discussion.
    */
   "discussion/labeled": {
@@ -57578,7 +57614,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A discussion was locked.
    */
   "discussion/locked": {
@@ -57624,7 +57660,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A discussion was pinned.
    */
   "discussion/pinned": {
@@ -57670,7 +57706,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A discussion was reopened.
    */
   "discussion/reopened": {
@@ -57716,7 +57752,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A discussion was transferred to another repository.
    */
   "discussion/transferred": {
@@ -57762,7 +57798,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A comment on the discussion was unmarked as the answer.
    */
   "discussion/unanswered": {
@@ -57808,7 +57844,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A label was removed from a discussion.
    */
   "discussion/unlabeled": {
@@ -57854,7 +57890,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A discussion was unlocked.
    */
   "discussion/unlocked": {
@@ -57900,7 +57936,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Discussions" repository permission.
    *
    * > [!NOTE]
-   * > Webhook events for GitHub Discussions are currently in beta and subject to change.
+   * > Webhook events for GitHub Discussions are currently in public preview and subject to change.
    * @description A discussion was unpinned.
    */
   "discussion/unpinned": {
@@ -60215,7 +60251,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Personal access token requests" organization permission.
    *
    * > [!NOTE]
-   * > Fine-grained PATs are in public beta. Related APIs, events, and functionality are subject to change.
+   * > Fine-grained PATs are in public preview. Related APIs, events, and functionality are subject to change.
    * @description A fine-grained personal access token request was approved.
    */
   "personal-access-token-request/approved": {
@@ -60255,7 +60291,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Personal access token requests" organization permission.
    *
    * > [!NOTE]
-   * > Fine-grained PATs are in public beta. Related APIs, events, and functionality are subject to change.
+   * > Fine-grained PATs are in public preview. Related APIs, events, and functionality are subject to change.
    * @description A fine-grained personal access token request was cancelled by the requester.
    */
   "personal-access-token-request/cancelled": {
@@ -60295,7 +60331,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Personal access token requests" organization permission.
    *
    * > [!NOTE]
-   * > Fine-grained PATs are in public beta. Related APIs, events, and functionality are subject to change.
+   * > Fine-grained PATs are in public preview. Related APIs, events, and functionality are subject to change.
    * @description A fine-grained personal access token request was created.
    */
   "personal-access-token-request/created": {
@@ -60335,7 +60371,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Personal access token requests" organization permission.
    *
    * > [!NOTE]
-   * > Fine-grained PATs are in public beta. Related APIs, events, and functionality are subject to change.
+   * > Fine-grained PATs are in public preview. Related APIs, events, and functionality are subject to change.
    * @description A fine-grained personal access token request was denied.
    */
   "personal-access-token-request/denied": {
@@ -61043,7 +61079,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description A project in the organization was closed.
    */
   "projects-v2/closed": {
@@ -61089,7 +61125,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description A project in the organization was created.
    */
   "projects-v2/created": {
@@ -61135,7 +61171,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description A project in the organization was deleted.
    */
   "projects-v2/deleted": {
@@ -61181,7 +61217,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description The title, description, or README of a project in the organization was changed.
    */
   "projects-v2/edited": {
@@ -61227,7 +61263,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description An item on an organization project was archived. For more information, see "[Archiving items from your project](https://docs.github.com/enterprise-server@3.11/issues/planning-and-tracking-with-projects/managing-items-in-your-project/archiving-items-from-your-project)."
    */
   "projects-v2-item/archived": {
@@ -61273,7 +61309,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description A draft issue in an organization project was converted to an issue.
    */
   "projects-v2-item/converted": {
@@ -61319,7 +61355,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description An item was added to a project in the organization.
    */
   "projects-v2-item/created": {
@@ -61365,7 +61401,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description An item was deleted from a project in the organization.
    */
   "projects-v2-item/deleted": {
@@ -61411,7 +61447,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description The values or state of an item in an organization project were changed. For example, the value of a field was updated, the body of a draft issue was changed, or a draft issue was converted to an issue.
    */
   "projects-v2-item/edited": {
@@ -61457,7 +61493,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description The position of an item in an organization project was changed. For example, an item was moved above or below another item in the table or board layout.
    */
   "projects-v2-item/reordered": {
@@ -61503,7 +61539,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description An archived item on an organization project was restored from the archive. For more information, see "[Archiving items from your project](https://docs.github.com/enterprise-server@3.11/issues/planning-and-tracking-with-projects/managing-items-in-your-project/archiving-items-from-your-project)."
    */
   "projects-v2-item/restored": {
@@ -61549,7 +61585,7 @@ export interface operations {
    * To subscribe to this event, a GitHub App must have at least read-level access for the "Projects" organization permission.
    *
    * > [!NOTE]
-   * > Webhook events for projects are currently in beta and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
+   * > Webhook events for projects are currently in public preview and subject to change. To share feedback about projects webhooks with GitHub, see the [Projects webhook feedback discussion](https://github.com/orgs/community/discussions/17405).
    * @description A project in the organization was reopened.
    */
   "projects-v2/reopened": {
@@ -63820,7 +63856,7 @@ export interface operations {
    * This event occurs when there is activity relating to a security vulnerability alert in a repository.
    *
    * > [!WARNING]
-   * > **Deprecation notice:** This event is deprecated. Use the `dependabot_alert` event instead.
+   * > **Closing down notice:** This event is closing down. Use the `dependabot_alert` event instead.
    * @description A repository vulnerability alert was created.
    */
   "repository-vulnerability-alert/create": {
@@ -63862,7 +63898,7 @@ export interface operations {
    * This event occurs when there is activity relating to a security vulnerability alert in a repository.
    *
    * > [!WARNING]
-   * > **Deprecation notice:** This event is deprecated. Use the `dependabot_alert` event instead.
+   * > **Closing down notice:** This event is closing down. Use the `dependabot_alert` event instead.
    * @description A repository vulnerability alert was dismissed.
    */
   "repository-vulnerability-alert/dismiss": {
@@ -63904,7 +63940,7 @@ export interface operations {
    * This event occurs when there is activity relating to a security vulnerability alert in a repository.
    *
    * > [!WARNING]
-   * > **Deprecation notice:** This event is deprecated. Use the `dependabot_alert` event instead.
+   * > **Closing down notice:** This event is closing down. Use the `dependabot_alert` event instead.
    * @description A previously dismissed or resolved repository vulnerability alert was reopened.
    */
   "repository-vulnerability-alert/reopen": {
@@ -63946,7 +63982,7 @@ export interface operations {
    * This event occurs when there is activity relating to a security vulnerability alert in a repository.
    *
    * > [!WARNING]
-   * > **Deprecation notice:** This event is deprecated. Use the `dependabot_alert` event instead.
+   * > **Closing down notice:** This event is closing down. Use the `dependabot_alert` event instead.
    * @description A repository vulnerability alert was marked as resolved.
    */
   "repository-vulnerability-alert/resolve": {

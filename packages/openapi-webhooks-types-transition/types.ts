@@ -614,6 +614,8 @@ export type RepositoryVulnerabilityAlertEvent =
   | WebhookEventDefinition<"repository-vulnerability-alert-resolve">;
 export type SecretScanningAlertCreatedEvent =
   WebhookEventDefinition<"secret-scanning-alert-created">;
+export type SecretScanningAlertPubliclyLeakedEvent =
+  WebhookEventDefinition<"secret-scanning-alert-publicly-leaked">;
 export type SecretScanningAlertReopenedEvent =
   WebhookEventDefinition<"secret-scanning-alert-reopened">;
 export type SecretScanningAlertResolvedEvent =
@@ -622,6 +624,7 @@ export type SecretScanningAlertValidatedEvent =
   WebhookEventDefinition<"secret-scanning-alert-validated">;
 export type SecretScanningAlertEvent =
   | WebhookEventDefinition<"secret-scanning-alert-created">
+  | WebhookEventDefinition<"secret-scanning-alert-publicly-leaked">
   | WebhookEventDefinition<"secret-scanning-alert-reopened">
   | WebhookEventDefinition<"secret-scanning-alert-resolved">
   | WebhookEventDefinition<"secret-scanning-alert-validated">;
@@ -973,6 +976,7 @@ export type EventPayloadMap = {
     | WebhookEventDefinition<"repository_vulnerability_alert.resolve">;
   secret_scanning_alert:
     | WebhookEventDefinition<"secret_scanning_alert.created">
+    | WebhookEventDefinition<"secret_scanning_alert.publicly_leaked">
     | WebhookEventDefinition<"secret_scanning_alert.reopened">
     | WebhookEventDefinition<"secret_scanning_alert.resolved">
     | WebhookEventDefinition<"secret_scanning_alert.validated">;
